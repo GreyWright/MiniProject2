@@ -1,0 +1,413 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;pydata_pandas-datareader;8719d6625eae9919c85ba3b67f35ead5759cbd32;M. Fierro <massimo.fierro@gmail.com>;1698784842;"Merge 3f44d4e9e55bf2904e8127c2dcaccb05220a43dd into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+pre;pydata_pandas-datareader;d63b2584933449afcdf01f1dd6c44432dcee5a98;Steffen Guenther <stguen@uni-bremen.de>;1698784842;"Merge 971c76b8f34e62aca94dcac36157fa5d91006a8c into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+pre;pydata_pandas-datareader;d8731a7bf5f3fdfab3afc83b4bc86e46191323e3;alised <seddighi.ali@gmail.com>;1698784842;"Merge d4324c823c1af46329a9bf39e0fb1f9906b4b77e into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+pre;pydata_pandas-datareader;63ba812e699946c7b300a2ca3b97dd7f5acbaf1e;assetvar <64525839+assetvar@users.noreply.github.com>;1708367204;Update remote_data.rst
+pre;pydata_pandas-datareader;fe926aca5c206e9b6ad62cb5fcfaf12b4330a9c6;assetvar <64525839+assetvar@users.noreply.github.com>;1708367273;"Merge 63ba812e699946c7b300a2ca3b97dd7f5acbaf1e into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+pre;pydata_pandas-datareader;1b3ad6ebb8b4d4aabb0917d518c2e23591b56a1e;jirka <jirka.borovec@seznam.cz>;1723112471;"fix exception for no data with `YahooDailyReader`
+"
+pre;pydata_pandas-datareader;74f9a90c08a3e0c1454f938ce73e659da822c945;jirka <jirka.borovec@seznam.cz>;1723112471;"fix exception for no data with `YahooDailyReader`
+"
+pre;pydata_pandas-datareader;344f6423e889885d9fba18819a8ba05037012585;Jirka Borovec <6035284+Borda@users.noreply.github.com>;1723112561;"Merge 74f9a90c08a3e0c1454f938ce73e659da822c945 into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+pre;pydata_pandas-datareader;1dc52f13478542f4aa8d63bbcc948d2d4749bdb9;Vikas Sanwal <vikassnwl@gmail.com>;1724583495;"fix datareader for yahoo
+"
+pre;pydata_pandas-datareader;6176d81efb0989550a7dbc9d2a4fd15ac40faeb1;Vikas Sanwal <vikassnwl@gmail.com>;1724588601;"Merge 1dc52f13478542f4aa8d63bbcc948d2d4749bdb9 into a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd
+"
+post;pydata_pandas-datareader;60432f9c6603c6b1f6db42b5fd31ae6097a4f4bc;Kevin Sheppard <bashtage@users.noreply.github.com>;1743609096;"MAINT: Fix PDF for pandas 3 changes
+
+Fix issues in FRED and FamaFrench
+"
+post;pydata_pandas-datareader;2e4b674da41db55a5c5c3b483617b9ad83adbf81;Kevin Sheppard <bashtage@users.noreply.github.com>;1743609993;"CI: Pin numpy
+"
+post;pydata_pandas-datareader;94634168122df5278e14889322c7094fa6e4e3ba;Kevin Sheppard <bashtage@users.noreply.github.com>;1743610226;"CI: Pin numpy
+
+Also run pyupgrade for 39
+"
+post;pydata_pandas-datareader;7e02574fbc6d5ce83d5f8e71da65ec4d07abe671;Kevin Sheppard <bashtage@users.noreply.github.com>;1743610755;"Fix for legacy python
+"
+post;pydata_pandas-datareader;e6499b12aa69dc111360df35d28b347b5bd728cc;Kevin Sheppard <bashtage@users.noreply.github.com>;1743611016;"CI: Fix pinning on Windows
+"
+post;pydata_pandas-datareader;61fed7885ca46ff623ec31583c317b9a392b2037;Kevin Sheppard <bashtage@users.noreply.github.com>;1743611489;"STY: Fix bad check
+"
+post;pydata_pandas-datareader;300962aac9b51c3e3d7f48b0fc2c08e7735d8314;Kevin Sheppard <bashtage@users.noreply.github.com>;1743611665;"Fix install
+"
+post;pydata_pandas-datareader;d15002eb9473cc7cc2a89b2656c161eb0589eb18;Kevin Sheppard <bashtage@users.noreply.github.com>;1743612024;"CI: Remove coverage for Windows
+"
+post;pydata_pandas-datareader;7166d2781cc1ac22328efd14d1b271feed0b4b25;Kevin Sheppard <bashtage@users.noreply.github.com>;1743612275;"CI: Pin pytest
+"
+post;pydata_pandas-datareader;489ea52cd88b6037aa60ee5b84d11d3fb4c9b1e6;Kevin Sheppard <bashtage@users.noreply.github.com>;1743612572;"CI: Windows
+"
+pre;shellphish_driller;42d288331ae98dd7f2b3344732b4a3e26d747c5a;Lukas Dresel <Lukas-Dresel@users.noreply.github.com>;1554835374;"fixed bug introduced by 01c8425187c9fd30fc3a30e0e6c1ab9ee0b33a3a
+"
+pre;shellphish_driller;5ab736700d42fe6f2157d75425d244fd140bcd2a;Audrey Dutcher <audrey@rhelmot.io>;1556564980;"enable tracing options for states, which were (accidentally?) disabled in c20d4410
+"
+pre;shellphish_driller;f584e8e010b7376bcf7785fb6ff5fd023556f53e;Audrey Dutcher <audrey@rhelmot.io>;1572386551;"nuke travis
+"
+pre;shellphish_driller;7882417101f7f8818744fe02908aed0f55536ad9;Yasaman Ghassemi <yasamanghassemi@gmail.com>;1598532463;"Update driller_main.py
+
+I have checked your scripts around Driller, and I think there is a problem in the driller_main.py script. When creating an object from DrillerCore, the value of fuzz_bitmap (that has been obtained from AFL) is not passed to its constructor. Consequently, the constructor will initialize self.fuzz_bitmap to the default value (namely, b""\xff"" * 65536)."
+pre;shellphish_driller;ad9643afa38e7f5cd72106925bac0c8d9315b630;Yasaman Ghassemi <yg75@ymail.com>;1599172302;"Update driller_main.py (#84)
+
+I have checked your scripts around Driller, and I think there is a problem in the driller_main.py script. When creating an object from DrillerCore, the value of fuzz_bitmap (that has been obtained from AFL) is not passed to its constructor. Consequently, the constructor will initialize self.fuzz_bitmap to the default value (namely, b""\xff"" * 65536)."
+pre;shellphish_driller;488a22ccf888a5a76f3f8dc00efeb6827a567a5e;Arvind <dnivra@users.noreply.github.com>;1617155897;"Unsat states must be treated as potential successors in Tracer
+"
+pre;shellphish_driller;e9d2b6d2627ab6352243bbb0d51cde3daa7323f5;Arvind <dnivra@users.noreply.github.com>;1617155897;"Unsat states must be treated as potential successors in Tracer
+"
+pre;shellphish_driller;501ad6ef4d24e138010fe901ecb65a776b3ab8b9;mohitrpatil <mpatil14@asu.edu>;1649879458;"Removed nose imports in test_driller.py
+"
+pre;shellphish_driller;8cec84441d1e04b2e011150031b54ee34b8e075e;mohitrpatil <mpatil14@asu.edu>;1649879548;"Removed nose imports in test_driller.py
+"
+pre;shellphish_driller;bb8259926e5f07e6653c71d0ae7f02695ebfba84;Mohit Patil <91758557+mohitrpatil@users.noreply.github.com>;1649880297;"Remove nose imports (#92)
+
+* Removed nose imports in test_driller.py
+
+* Removed nose imports in test_driller.py"
+post;shellphish_driller;20a85b581269c22a832971800d460ffaab38800e;Audrey Dutcher <audrey@rhelmot.io>;1742845467;"work with multiple versions of angr
+"
+pre;threeme3_qcx-ssb;cdfbf03908484f0af9cd95f4406bb8f6b3c07412;John Zhong <john138@gmail.com>;1635604780;"Merge 3b032f35c6a647e6be5f5ac3d7300f4fc194dae0 into 4fc60f5c8d74ba7364cf891e008b920ab5e5c82d
+"
+pre;threeme3_qcx-ssb;8be911fb38413a2b7ad678bd06e01e024dbee839;guido <pe1nnz@amsat.org>;1637168175;"Update README.
+"
+pre;threeme3_qcx-ssb;ee0bf454fddf20cd0426a5cb4dbcd332c7ace357;guido <pe1nnz@amsat.org>;1637168392;"Add reference to master branch.
+"
+pre;threeme3_qcx-ssb;7245a135b156b2322c80324d8db9813f060fbbf5;guido <pe1nnz@amsat.org>;1637172276;"Change README.
+"
+pre;threeme3_qcx-ssb;7aa3589abe3017ebe9cbf009dc5dd8564c40de38;guido <pe1nnz@amsat.org>;1637251654;"Change project name.
+"
+pre;threeme3_qcx-ssb;c3114c99f089c01c6c8895f18483a02b92eb571c;guido <pe1nnz@amsat.org>;1637253763;"Minor changes.
+"
+pre;threeme3_qcx-ssb;63fb397ee68de7a33a693c7bd5b4f0144c0dfb51;guido <pe1nnz@amsat.org>;1647943405;"Fix CW key-down/key-up waveform issue (TNX Dave, M0JTS). Fix index key-up waveform.
+"
+pre;threeme3_qcx-ssb;8987e3e3e30fcf124c6149f562275d480f5ad196;UnknownRider <ggkraemer@cox.net>;1651441189;"Initial submittal
+
+Submit English version of 'stepbystepupload.md', named 'stepbystepupload_EN.md'.
+File may contain mistakes!"
+pre;threeme3_qcx-ssb;369515cb405fcfa3c90dc18fcb7b650a4298775f;John Zhong <john138@gmail.com>;1651459084;"Merge pull request #2 from plainpylut/feature-rx-improved
+
+Submit English version of stepbystepupload_EN.md"
+pre;threeme3_qcx-ssb;a13d7d34073017b30b2a5c22ef299ae5e2332000;threeme3 <threeme3@hotmail.com>;1667246044;Fix for Arduino 2.0 IDE
+post;threeme3_qcx-ssb;fec6eccadb66643fffa796666efdcfd10fe7f74e;Davi Lopes Dos Santos <davilopes_@hotmail.com>;1692397205;"Update usdx.ino
+
+TESTE"
+post;threeme3_qcx-ssb;87873464b7d3e9a9fade70d799b8141f850ec744;Davi Lopes Dos Santos <davilopes_@hotmail.com>;1692397361;Update usdx.ino
+post;threeme3_qcx-ssb;618a12771a43688ae9dba6069b8bed75485dadc9;threeme3 <threeme3@hotmail.com>;1719631018;Email change
+post;threeme3_qcx-ssb;87599cd29a629b1e7450445c486a612d7233e341;threeme3 <threeme3@hotmail.com>;1719631090;Email change
+post;threeme3_qcx-ssb;f49d227aff14ce9365f22f9f59e9d8a2b469711f;threeme3 <threeme3@hotmail.com>;1719631090;"Email change
+"
+post;threeme3_qcx-ssb;5be78bb63a264d0e325a563661f1597c450f76d7;sq5bpf <sq5bpf+github@lipkowski.org>;1731361022;"fix RecvByte() for multi-byte i2c reads --sq5bpf
+"
+post;threeme3_qcx-ssb;70ba6f2e7a9f2c7380586b1261a0d41470640f26;sq5bpf <sq5bpf+github@lipkowski.org>;1731404452;"split settings into a separate file
+"
+post;threeme3_qcx-ssb;a4a94ce4c037d99f6432a7fb37c32b34138d1468;threeme3 <threeme3@hotmail.com>;1731409219;"Merge pull request #86 from sq5bpf/master
+
+fix RecvByte() for multi-byte i2c reads --sq5bpf"
+post;threeme3_qcx-ssb;51f454ca5e0b54609caba81591ba81d7be64df92;sq5bpf <sq5bpf+github@lipkowski.org>;1731448506;"change 27MHz clock to be more spot-on, move CW message definition to usdx_settings.ino
+"
+post;threeme3_qcx-ssb;db54605aa086ce9494d6dc03c84c12aa29037ddd;sq5bpf <sq5bpf@users.noreply.github.com>;1731449466;"Merge pull request #1 from threeme3/master
+
+Merge pull request #86 from sq5bpf/master"
+pre;humanbrainproject_fairgraph;6c07f9e53cb1085b64038c547f3532dea314cdbf;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525767881;"Allow Python client to work with Python < 3.6 - fix metaclass definition
+"
+pre;humanbrainproject_fairgraph;6b9b5aa8a5d2422d9d1cae03c3cf41844906c0ca;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525769198;"Allow Python client to work with Python < 3.6 - fix namedtuple
+"
+pre;humanbrainproject_fairgraph;36417cdf7c2512f44e919797b68283b8854a643c;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525787148;"Update authentication to work with latest pyxus
+"
+pre;humanbrainproject_fairgraph;3ef15bdffa4921c7cae9d0d48acd763fa3b3aff7;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525793412;"Add chloride reversal potential to patched cell
+"
+pre;humanbrainproject_fairgraph;22d73cd0ff7d88dde0615c410a7106ff90c7b959;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525806257;"Initial attempt at Travis setup
+"
+pre;humanbrainproject_fairgraph;9b2fc50c61c01b089d0ada6897d7562e741f7cf7;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525807506;"Use pyxus branch for testing
+"
+pre;humanbrainproject_fairgraph;f7ba7df1a9b8a51ec2696d8dbb31f6c8b9dfc5bc;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1525807833;"Python 2 fix
+"
+pre;humanbrainproject_fairgraph;bd785bf3f723b43feffbbbd8f0a491b0359c39b3;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1526405523;"Assorted Python client improvements
+"
+pre;humanbrainproject_fairgraph;3055c9589fcc56bfe3433094e89b270d6d519c53;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1526408393;"Handle numbers incorrectly stored as strings
+"
+pre;humanbrainproject_fairgraph;98feb90b13c50b974612fa6237d8331861b77cfb;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1526415314;"Release 0.1.0
+"
+post;humanbrainproject_fairgraph;587ed2d5f0176cec6a9ad7199130b9afc610d41d;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1535984198;"added basic brain simulation module
+"
+post;humanbrainproject_fairgraph;08c69761a335306744eb7e91b18f0fc8beaa5c3c;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1536059363;"Merge remote-tracking branch 'upstream/master'
+
+get latest changes
+"
+post;humanbrainproject_fairgraph;9d95e2b6819e99044d2675aea6219c8cf29737c1;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1537286523;"added brain simulation module and updated iri maps in OntologyTerm classes in the python client
+"
+post;humanbrainproject_fairgraph;2062dd98325c04c876d1355d5968646f7a1a433d;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1537890771;"abstraction level, cell type, species, brain region, author, organization values can be lists
+"
+post;humanbrainproject_fairgraph;da120dc9e5c3a689339071b9ad61a1016e7b739b;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1537966981;"changed attribute name, people to authors
+"
+post;humanbrainproject_fairgraph;df933e6daafd8367de8a0e6b56200d58f277b151;Onur Ates <onur.ates@unic.cnrs-gif.fr>;1538042229;"added to_jsonld() method and check if values are lists
+"
+post;humanbrainproject_fairgraph;5245a5bb0773993eb540448c699c3524770c7534;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1538054938;"Fixed a bug in the PatchClampExperiment class (Python client)
+"
+post;humanbrainproject_fairgraph;9625a2a7ef28091cc9a93b139b780401a45c5455;HFragnaud <helissande.fragnaud@gmail.com>;1538998736;"Update ontology IRI_maps
+"
+post;humanbrainproject_fairgraph;6a5f95a1614ab67ce4b5a752b39932427c26fe9a;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1547478545;"Update to work with MINDS v1.0.0 and production deployment of KG
+"
+post;humanbrainproject_fairgraph;a3eb3520d5a24565fb8965c0298fe0e56ff0ad1c;Andrew Davison <andrew.davison@unic.cnrs-gif.fr>;1547558690;"Minor refactoring/updates
+"
+pre;sancus-pma_sancus-core;8f91e9d017e53cd9f99484cda808ba618f780caf;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1648836719;"Initial PoC setup for OS-level Nemesis SW defense.
+"
+pre;sancus-pma_sancus-core;f909290eba638ac6f6904a36ec9e31e39bb9a8eb;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1653418648;"Trigger CI re-run and add cron job.
+"
+pre;sancus-pma_sancus-core;bf89c0b81ef142c5434037b79b6513226e11e315;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1653419002;"Merge branch 'mitigations' of github.com:martonbognar/sancus-core-gap into mitigations
+"
+pre;sancus-pma_sancus-core;8df6f4610e9da7595326c6f8943eba154be4efab;marton bognar <martonbognar@users.noreply.github.com>;1653419014;"Merge bf89c0b81ef142c5434037b79b6513226e11e315 into 7c7d7fa9360439360d1eff0d26135c3d93a4b846
+"
+pre;sancus-pma_sancus-core;09adaef918ea54fac8eeb6c5bac40b9104c138f0;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1666005260;"Supress warnings in recent verilator.
+"
+pre;sancus-pma_sancus-core;c3a8b7af7d8574b2387870e55decc0472a7d197f;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1666027111;"Fix missing timescale error option on Ubuntu < 22.04.
+"
+pre;sancus-pma_sancus-core;79958d426c65ebb026531e284949f8828af36059;marton bognar <marton.bognar@cs.kuleuven.be>;1666884319;"Parameterize the capture trace length of the DMA peripheral
+"
+pre;sancus-pma_sancus-core;bd2e2dfa6b49565f79abd66aebc0a69f1369fa80;marton bognar <marton.bognar@cs.kuleuven.be>;1681732535;"Add test case to demonstrate a DMA-based covert channel
+"
+pre;sancus-pma_sancus-core;d83a5207dc5b079847dba39ac17e98fcb4bc088f;Jo Van Bulck <jovanbulck@users.noreply.github.com>;1683629763;"Merge pull request #32 from sancus-tee/dma-attack
+
+Refinements to the DMA attacks"
+pre;sancus-pma_sancus-core;7f7ef7f689eb04114d1e28590c1cbc01166c4d26;Fritz Alder <22245567+fritzalder@users.noreply.github.com>;1683629788;"Merge 1802027aa3a6721d3e9d1527a104dc73d18d9c06 into d83a5207dc5b079847dba39ac17e98fcb4bc088f
+"
+post;sancus-pma_sancus-core;d71b04dcefd007907f3da6e6e3aec0fe136c6835;Ruben Van Dijck <ruben.vandijck1@student.kuleuven.be>;1734786814;"Changes to the crypto unit state machine: added register ensuring cst time.
+"
+post;sancus-pma_sancus-core;a5c762cb761ffaa8ebf14fc60b9da19f1a4dff05;Ruben Van Dijck <ruben.vandijck1@student.kuleuven.be>;1746954943;"change fsm to mitigate enable timing leak
+"
+post;sancus-pma_sancus-core;3f6d12d032b615a2935eaa42275bd93ad0c4c2a9;Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>;1747060391;"CI: move to ubuntu 22.04
+
+ubuntu 24.04 misses the msp430-gcc package
+"
+post;sancus-pma_sancus-core;385b8be7ea5602d4af7ce2be1c5e253676bca248;Ruben Van Dijck <ruben.vandijck1@student.kuleuven.be>;1747591784;"ci: trigger tests
+"
+post;sancus-pma_sancus-core;976636ecaac14604c31cb314e17c6dab9e6d524d;Ruben Van Dijck <rubenvandijck@hotmail.be>;1747640593;"Merge branch 'sancus-tee:master' into unwrap-timing-fix
+"
+post;sancus-pma_sancus-core;b6b53bb3c2c38b079d1c8210ab4940f0af77a6fb;Ruben Van Dijck <rubenvandijck@hotmail.be>;1747642798;"Changes to the crypto unit state machine: added register ensuring constant-time execution (#33)
+
+Closes #27 #34
+
+More info in Systex'25 paper: <https://vanbulck.net/files/systex25-wait.pdf>"
+pre;vcflib_vcflib;6a02b4712f65e6d85aedbb724a6031feeacaab34;Pjotr Prins <pjotr.public01@thebird.nl>;1613487021;"Also install scripts
+"
+pre;vcflib_vcflib;a5995def667c0caabd5903672619f0ea54c4f159;Pjotr Prins <pjotr.public01@thebird.nl>;1613487021;"Also install scripts
+"
+pre;vcflib_vcflib;288ff56ed5789d6ea8c0f42fb4a05ba1295356ec;Pjotr Prins <pjotr.public01@thebird.nl>;1613546404;"Fix badges
+"
+pre;vcflib_vcflib;507b35ed81c7d17d0e4af5a4efbb71ac2ce1481f;Pjotr Prins <pjotr.public01@thebird.nl>;1613546404;"Fix badges
+"
+pre;vcflib_vcflib;a14f03ee8ca832cba94fd89f609e9ad3cef7b709;Pjotr Prins <pjotr.public01@thebird.nl>;1613548874;"Fixed failing test
+"
+pre;vcflib_vcflib;f77c2a9a1bddff42563eaef09b12000ae274968e;Pjotr Prins <pjotr.public01@thebird.nl>;1613548874;"Fixed failing test
+"
+pre;vcflib_vcflib;83e6414fe913433dc176b558a75a27a25cc23ea5;Pjotr Prins <pjotr.public01@thebird.nl>;1613549120;"Fix badge
+"
+pre;vcflib_vcflib;b836c2b3e35e3314ac202ac285fad020693b2763;Pjotr Prins <pjotr.public01@thebird.nl>;1613549120;"Fix badge
+"
+pre;vcflib_vcflib;a549707d8e33006ed89c46ca7fbda007123418ab;Pjotr Prins <pjotr.public01@thebird.nl>;1622098850;"README: add bibtex reference
+"
+pre;vcflib_vcflib;f92f3d9531f7248c629127d270e337c610079a46;Pjotr Prins <pjotr.public01@thebird.nl>;1622098850;"README: add bibtex reference
+"
+post;vcflib_vcflib;0f03b0b628300c8008a8411431ef26ecdce20bad;Alexander Regueiro <alexreg@gmail.com>;1641951695;"Fix man page installation
+
+The trailing slash in `${CMAKE_SOURCE_DIR}/man/` is important, as we do not want to install the man pages in `${CMAKE_INSTALL_PREFIX}/man/man1/man`, but rather just `${CMAKE_INSTALL_PREFIX}/man/man1`. (I encountered this problem when building on macOS.)
+
+Per the [documentation](https://cmake.org/cmake/help/latest/command/install.html):
+
+> The DIRECTORY form installs contents of one or more directories to a given destination. The directory structure is copied verbatim to the destination. The last component of each directory name is appended to the destination directory but a trailing slash may be used to avoid this because it leaves the last component empty."
+post;vcflib_vcflib;c648b642fab2cfb3f1c25d29efef9d819700876b;Alexander Regueiro <alexreg@gmail.com>;1641951695;"Fix man page installation
+
+The trailing slash in `${CMAKE_SOURCE_DIR}/man/` is important, as we do not want to install the man pages in `${CMAKE_INSTALL_PREFIX}/man/man1/man`, but rather just `${CMAKE_INSTALL_PREFIX}/man/man1`. (I encountered this problem when building on macOS.)
+
+Per the [documentation](https://cmake.org/cmake/help/latest/command/install.html):
+
+> The DIRECTORY form installs contents of one or more directories to a given destination. The directory structure is copied verbatim to the destination. The last component of each directory name is appended to the destination directory but a trailing slash may be used to avoid this because it leaves the last component empty."
+post;vcflib_vcflib;71ffb34114d600bf95816ed0098c3ccb64d44874;Pjotr Prins <pjotr.public01@thebird.nl>;1642394263;"Merge pull request #321 from alexreg/patch-1
+
+Fix man page installation"
+post;vcflib_vcflib;d13c16d214ef1a9d819bd1b1285aced4711308af;Pjotr Prins <pjotr.public01@thebird.nl>;1642412591;"README: change to matrix badge
+"
+post;vcflib_vcflib;e0cb656cb0e224dc078ba1e06079a88a5ea7b6ab;Pjotr Prins <pjotr.public01@thebird.nl>;1642412591;"README: change to matrix badge
+"
+post;vcflib_vcflib;186d4f7ceb1bd56572c978c597b6ba5a12ebf228;Tim Massingham <tim.massingham@gmail.com>;1642436875;"Bump intervaltree dependency
+"
+post;vcflib_vcflib;fe906dee7080e8e44338af803fabfef3ffbff785;Tim Massingham <tim.massingham@gmail.com>;1642436875;"Bump intervaltree dependency
+"
+post;vcflib_vcflib;1d30fd5eff3fdbaac570ebb70ffe57e19e4d5ed9;Mathias Schmitt <mathiaspeterhorst@gmail.com>;1642451620;"vcfflatten: fix segfault when no 'AF' field is present (#47).
+
+vcfflatten crashed when 'flattening' a VCF file with more
+than 2 alleles for a locus if no 'AF' field was present.
+Add a new option to handle this behavior:
+  - If the --ignore-errors option is passed to the program,
+    do not try to flatten the offending line, and parse the
+    next one.
+  - if the --ignore-errors option is not passed, then the
+    default behavior is to print an error message and
+    exit.
+"
+post;vcflib_vcflib;f2ed53809b5be801a78b3e2e01398a8bc0a2945b;Mathias Schmitt <mathiaspeterhorst@gmail.com>;1642451620;"vcfflatten: fix segfault when no 'AF' field is present (#47).
+
+vcfflatten crashed when 'flattening' a VCF file with more
+than 2 alleles for a locus if no 'AF' field was present.
+Add a new option to handle this behavior:
+  - If the --ignore-errors option is passed to the program,
+    do not try to flatten the offending line, and parse the
+    next one.
+  - if the --ignore-errors option is not passed, then the
+    default behavior is to print an error message and
+    exit.
+"
+post;vcflib_vcflib;bdfb024b9f440b113bcd81a263aae1c2e95c0251;Pjotr Prins <pjotr.public01@thebird.nl>;1642480578;"Merge pull request #322 from timmassingham/issue320
+
+Bump intervaltree dependency"
+pre;mobleylab_blues;7a7cf310bc867b9bfb01dbbe5904a453c2d645a4;Yunhui Ge <yunhui.ge@gmail.com>;1611262089;"Remove several unnecessary lines
+
+Those lines may break ReadtheDoc page."
+pre;mobleylab_blues;90c4bfa7ddd4ef3ea9f5110889222bdbec7c5c5f;Yunhui Ge <yunhui.ge@gmail.com>;1611262292;Update BLUES version
+pre;mobleylab_blues;c38bd013c74810dd0c23209cd337e1aca8c58d43;yunhuige <yunhui.ge@gmail.com>;1611265705;"necessary to merge
+"
+pre;mobleylab_blues;b24b2618ad708f91aa234b16703ea36671d24a29;Yunhui Ge <yunhui.ge@gmail.com>;1611272177;Updated conda installation instructions
+pre;mobleylab_blues;fa17dcd9ebf001b24bb90efc41c33bb4b07a7088;Yunhui Ge <yunhui.ge@gmail.com>;1611281974;Updated conda installation instructions
+pre;mobleylab_blues;d2ef364749d4cbd7554add3ee61a5e90588760e1;Yunhui Ge <yunhui.ge@gmail.com>;1611282297;"Updated conda installation instructions (#171)
+
+* modified setup.py and meta.yaml to for conda setup
+
+* updated README file
+
+* minor fix
+
+* changes on noarch
+
+* updated installation instructions for Linux users
+
+* updated readthedoc installation and README file
+
+* fixed bash code rendering
+
+* pytest instruction added
+
+* Update README.md
+
+Updated conda installation instructions
+
+* Updated conda installation instructions
+
+* Remove several unnecessary lines
+
+Those lines may break ReadtheDoc page.
+
+* Update BLUES version
+
+* Updated conda installation instructions
+
+* Updated conda installation instructions
+
+Co-authored-by: Yunhui Ge <yunhuige@Yunhuis-MacBook-Pro-2.local>"
+pre;mobleylab_blues;93fe44a8ba8683f0a6c031c9f2ceafb85a8de5db;sgill2 <sgill2@uci.edu>;1613960687;"Merge 28c60abdf4a7cdfd9e7235c106afccf8f5d28a18 into d2ef364749d4cbd7554add3ee61a5e90588760e1
+"
+pre;mobleylab_blues;b3a23141f7c5617d84ae17b480748219b86b631f;Ke <justxwy@126.com>;1657510266;"Merge branch 'TorsionalMove_New'
+"
+pre;mobleylab_blues;68b889ba25e91ce15991fa3a55454ae177260de2;Ke <justxwy@126.com>;1657538743;"Use rdkit to rotate  molecule
+
+No openeye license, use rdkit instaed
+"
+pre;mobleylab_blues;465e21cfbf20645a53ac596969cc9e1d19a74c0d;Ke <justxwy@126.com>;1657539429;"Merge 68b889ba25e91ce15991fa3a55454ae177260de2 into d2ef364749d4cbd7554add3ee61a5e90588760e1
+"
+post;mobleylab_blues;14758fc5d6584588c0eb72a3832f0743f1dc83a1;steven ayoub <stevenayoub@dhcp-10-8-023-235.mobile.reshsg.uci.edu>;1740767779;"test_water_translation_after test function to check whether the water is outside the given region or not
+"
+post;mobleylab_blues;c92e6058b3cfe1c5ea798304c7a23f475350e65f;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742670791;"update syntax 'simtk' is deprecated just use 'openmm'
+"
+post;mobleylab_blues;6cc273ac2ae8b3b3ba25cd23fdc54bd3be36822c;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742671656;"Updated deprecated libraries and made update in selection of PARMED atoms
+
+Previous version made atom selection starting at index 0 but Parmed is atom selection starts at index 1
+"
+post;mobleylab_blues;b56919d61320a398b2f19fe4d52bc550d8258ebc;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742680042;"Remove import simtk since its deprecated and replaced with openmm
+"
+post;mobleylab_blues;1437a4963c2c2718d64fd5f950f745eda77e708a;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742680932;"It runs multiple BLUES simulations on a propane system to assure that the engine correctly samples the dihedral conformations of the propane molecule—in the trans and gauche states, specifically.
+
+Calculate the average populations and compare them to what is expected, within predefined and relatively higher tolerance due to differences in statistical error ~10%
+"
+post;mobleylab_blues;3bdd4fd2717bdf9e790b6dc68c285f9a594aa0e7;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742681011;"Tests are not complete running into errors
+
+Specifically openmm.OpenMMException: Particle coordinate is NaN.
+
+This happens when the particle positions in the context contain NaNs, and OpenMM tries to simulate — even for a single step — with those invalid coordinates.
+"
+post;mobleylab_blues;1407b7bbe47b85a7de0f051f092ec716cefab1db;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742682015;"Created GitHub Action that runs tests on push and pull requests
+"
+post;mobleylab_blues;9affa7666ef83c60a17721bf90ab13a483742baa;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742682015;"Created GitHub Action that runs tests on push and pull requests
+"
+post;mobleylab_blues;4dad9846e2965949045bb37af6d499b502efd054;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742682817;"merge conflicts run CI on any branch
+"
+post;mobleylab_blues;6e60aabfab391b22f5977afcddc5e0b4cd0dc97c;steven ayoub <stevenayoub@stevens-MacBook-Pro.local>;1742683612;"Install openeye toolkit
+"
+pre;vinecopulib_rvinecopulib;3cf11deb942a61dec531f359f34a28d8b237f7be;Thomas Nagler <tnagler@users.noreply.github.com>;1606163633;"Release 0.5.5.1.0 (#233)
+
+* fix user-level var types in flip() (#227)
+
+* pull latest vinecopulib sources (up to #527) (#231)
+
+* Prepare release (#232)
+
+* bump version
+
+* update NEWS
+
+* update website"
+pre;vinecopulib_rvinecopulib;629eaeafbdfc5f5c0758a30d5e20cab5992f7223;tnagler <thomas.nagler@tum.de>;1608019839;"fix calls to all.equal/expect_equal
+"
+pre;vinecopulib_rvinecopulib;1156ba70721b3c4f38d28cb022213c37b1aa0c7c;tnagler <thomas.nagler@tum.de>;1608019941;"bump version + update NEWS
+"
+pre;vinecopulib_rvinecopulib;942332cd5f67ab6f3695887cf03cdcb65bc1c1f6;tnagler <thomas.nagler@tum.de>;1608019980;"update docs
+"
+pre;vinecopulib_rvinecopulib;8e30e8f3f4e898ef44fc877618278d4c84cb5c5a;tnagler <thomas.nagler@tum.de>;1608023899;"avoid CRAN note
+"
+pre;vinecopulib_rvinecopulib;8026a44e87c76285203a0b93a323b09f258444b1;Thomas Nagler <tnagler@users.noreply.github.com>;1608025266;"fix calls to all.equal/expect_equal for R 4.1.x (#234)
+
+* fix calls to all.equal/expect_equal
+
+* bump version + update NEWS
+
+* update docs
+
+* avoid CRAN note"
+pre;vinecopulib_rvinecopulib;4e827f08164e4f0f94dc2e69574645407ca6b104;Thomas Nagler <tnagler@users.noreply.github.com>;1608025344;"Merge 8026a44e87c76285203a0b93a323b09f258444b1 into 3cf11deb942a61dec531f359f34a28d8b237f7be
+"
+pre;vinecopulib_rvinecopulib;1d2827dff0cb98ae5daa5f30cb9938462b9701e6;tnagler <thomas.nagler@tum.de>;1609145878;"store npars when copying Bicops
+"
+pre;vinecopulib_rvinecopulib;f6537ab335651204f71826166e68fe749feba1aa;tnagler <thomas.nagler@tum.de>;1609939872;"remove superfluous abstract method
+"
+pre;vinecopulib_rvinecopulib;6e3353c697cf70a9d0a96268cd777153847c9f6d;tnagler <thomas.nagler@tum.de>;1609939877;"add unit test
+"
+post;vinecopulib_rvinecopulib;c3bd17e515d9d9eff4c3dd22ac2a26e6f8bd8e26;Thomas Nagler <tnagler@users.noreply.github.com>;1623184316;"fix calls to all.equal/expect_equal for R 4.1.x (#234) (#235)
+
+* fix calls to all.equal/expect_equal
+
+* bump version + update NEWS
+
+* update docs
+
+* avoid CRAN note"
+post;vinecopulib_rvinecopulib;e8d4148f828f86a77cafd7c3b4b99ab18929cd0a;tnagler <thomas.nagler@tum.de>;1623184911;"force TLL to be nonnegative
+"
+post;vinecopulib_rvinecopulib;5e45c65a44d2f52bfd54e4d0295ebe5130bf8859;tnagler <thomas.nagler@tum.de>;1623186085;"fix name of t copula in docs (fixes #237)
+"
+post;vinecopulib_rvinecopulib;174b60c7bbaaaff5f328f59c26fa731b681f83c4;Thomas Nagler <tnagler@users.noreply.github.com>;1623201623;"fix name of t copula in docs (fixes #237) (#239)
+
+"
+post;vinecopulib_rvinecopulib;2efab1f2ea7e9dadd43d7d0ed9a6222d63b50a97;Thomas Nagler <tnagler@users.noreply.github.com>;1623201638;"force TLL to be nonnegative (#238)
+
+"
+post;vinecopulib_rvinecopulib;769bc854a8b27dff3975608f35900f6cfbb7fd76;tnagler <thomas.nagler@tum.de>;1624361150;"increase tll precision
+"
+post;vinecopulib_rvinecopulib;c0a03be1399246dc56503a54d82a0f0d8c7ec81c;tnagler <thomas.nagler@tum.de>;1626127015;"mention igraph representation in docs/examples
+"
+post;vinecopulib_rvinecopulib;fe8d31c6b94bbb7df174d94c45b7870867a8de37;tnagler <thomas.nagler@tum.de>;1626128474;"remove igraph link
+"
+post;vinecopulib_rvinecopulib;196d85d2c961150e7fe781ea57551dd5c6c218d6;tnagler <thomas.nagler@tum.de>;1626128945;"add to vinecop selection docs
+"
+post;vinecopulib_rvinecopulib;c834b6ba8b17d68d229bc6e00471956ccecc40d2;tnagler <thomas.nagler@tum.de>;1626172294;"bump version
+"

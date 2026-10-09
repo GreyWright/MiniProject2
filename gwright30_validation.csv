@@ -1,0 +1,11 @@
+Project;Rows;MonthlySum;Months;ZeroMonths;PreSample;PostSample;RemainingMissing
+juliamanifolds_manifolds.jl;8262;8262;83;0;0;0;0
+pydata_pandas-datareader;1755;1755;130;30;10;10;3
+shellphish_driller;568;568;118;81;10;1;0
+threeme3_qcx-ssb;460;460;82;40;10;10;1
+humanbrainproject_fairgraph;1793;1793;93;16;10;10;0
+sancus-pma_sancus-core;459;459;171;98;10;6;0
+vcflib_vcflib;1763;1763;183;42;10;10;1
+mobleylab_blues;1658;1658;113;54;10;10;1
+vinecopulib_rvinecopulib;1230;1230;104;32;10;10;0
+catboost_catboost;51165;51165;101;0;0;0;26

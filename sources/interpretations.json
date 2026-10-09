@@ -1,0 +1,172 @@
+{
+  "catboost_catboost": {
+    "pattern": "irregular",
+    "before": "N/A",
+    "after": "N/A",
+    "recent": "Dependency updates:Other",
+    "reason": "N/A active Project",
+    "recovered": "N/A",
+    "why": "N/A: no zero-commit month in the observed timeline.",
+    "who": "N/A",
+    "discussion": "CatBoost never has a completely empty month in the data, although the number of commits changes a lot. There's a huge spike in 2023 and noticeably less activity in 2024, so I classified it as irregular rather than steady. Some messages refer to changes brought over from internal development, while others concern dependencies. That makes the graph useful for spotting activity changes, but I wouldn't treat every commit as the same amount of work. Since there isn't an inactivity gap, there isn't a before-and-after recovery to investigate.",
+    "sources": [
+      "https://github.com/catboost/catboost/commits/"
+    ],
+    "notes": "CatBoost has no zero-commit months in its observed timeline, but it has a major spike in 2023. The pattern is irregular, not steady. There is no inactivity gap to explain, and the unretrieved commits mean the recorded count may be incomplete.",
+    "reflection": "CatBoost was different from most of the other projects because I couldn't find a single month with zero commits. There were 51,165 commits in the analyzed records, and the project stayed active throughout the timeline. What stood out wasn't a gap, but how dramatically the amount of activity changed. The graph shoots up in 2023 and comes back down in 2024. I marked the overall pattern as irregular rather than steady.\n\nI couldn't do a before-and-after gap comparison here because there isn't a gap. Instead, I looked at what the messages and the graph could actually tell me. Some commits deal with dependencies, and others describe changes coming from internal development. Those records aren't necessarily comparable to small fixes or individual feature commits, so I don't think a huge increase in the number of commits automatically means that much more work got done.\n\nThere are also 26 commits I couldn't retrieve, so the count is limited to what was available. Still, the observed timeline doesn't show a period when development stopped altogether. For this project, the bigger question is why commit volume fluctuated so much, and I don't have enough evidence to give a definite explanation for that."
+  },
+  "juliamanifolds_manifolds.jl": {
+    "pattern": "declining",
+    "before": "N/A",
+    "after": "N/A",
+    "recent": "Dependency updates:Feature development",
+    "reason": "N/A active Project",
+    "recovered": "N/A",
+    "why": "N/A: no zero-commit month in the observed timeline.",
+    "who": "N/A",
+    "discussion": "Manifolds.jl has commits in every observed month, so there is no inactivity gap to explain. The biggest burst of activity is in 2020, and later full years have fewer commits. I called that a declining pattern, but that doesn't mean the project was abandoned. Recent GitHub commits still include new functionality, fixes, and dependency work. I also wouldn't compare the incomplete 2026 year directly to a full year.",
+    "sources": [
+      "https://github.com/JuliaManifolds/Manifolds.jl/pull/924",
+      "https://github.com/JuliaManifolds/Manifolds.jl/commits/"
+    ],
+    "notes": "There are no zero-commit months in the observed history of Manifolds.jl. Activity is lower than its early 2020 peak, but recent commits show continued development and maintenance. The partial 2026 year should not be treated as a full-year total.",
+    "reflection": "Manifolds.jl didn't have any full months without commits, so there isn't an inactivity gap to investigate. It had 8,262 commits in the data, and the biggest concentration of activity was around 2020. Later years are quieter, which is why I classified the trend as declining. That describes the volume, though, not whether the project is alive.\n\nThe recent GitHub history makes that distinction pretty clear. There are still commits adding functionality, including work on the Veronese manifold, along with fixes to statistics-related code and dependency updates. So I wouldn't look at the lower bars after 2020 and conclude development stopped. It seems more accurate to say that the level of activity changed.\n\nThis one was relatively straightforward because there wasn't a mystery gap to explain, but the graph still needed some care. The available 2026 data only covers part of the year, so comparing its total against a full year would make the decline look worse than it really is. I also can't determine how much work each commit represents just from the count."
+  },
+  "humanbrainproject_fairgraph": {
+    "pattern": "declining",
+    "before": "Bug fixes:Feature development",
+    "after": "Feature development:Bug fixes",
+    "recent": "Documentation updates:Bug fixes",
+    "reason": "The 0.1.0 release immediately precedes the three-month gap, so a pause between development stages is a reasonable guess. I couldn't find a statement from the maintainers confirming that explanation.",
+    "recovered": "Yes",
+    "why": "The September 2018 commits add a brain-simulation module and then make related model changes and fixes. That is real development work after the gap, not just an automated update.",
+    "who": "Onur Ates wrote the first commits after the gap. Andrew Davison, who was active before it, contributed again afterward, and HFragnaud also appears in the post-gap sample.",
+    "discussion": "Fairgraph's longest gap is only three months, from June through August 2018. The last commit before it was the 0.1.0 release, and the first work afterward introduced a brain-simulation module. That makes a break between development stages seem possible, although nothing I found confirms why the contributors paused. Onur Ates handled the first post-gap commits, while Andrew Davison also contributed again afterward. Activity peaked later, around 2020, before settling to lower levels.",
+    "sources": [
+      "https://github.com/HumanBrainProject/fairgraph/issues/1",
+      "https://github.com/HumanBrainProject/fairgraph/commits/"
+    ],
+    "notes": "Fairgraph has one three-month gap after the 0.1.0 release. It resumes with simulation-module development and a mix of returning and different contributors. The release timing suggests a pause between stages, but the reason isn't confirmed.",
+    "reflection": "Fairgraph had 1,793 commits in the collected data, and its longest inactivity gap was three months, from June through August 2018. Compared with some of the other projects, that's a fairly short break. There was only one gap of at least three months. Activity later got much busier around 2020 before declining again.\n\nThe timing of this gap is what caught my attention. Right before it, the project released version 0.1.0 after compatibility and data-handling fixes. When commits started again in September 2018, the work involved a new brain-simulation module, followed by model changes and bug fixes. My guess is that the gap was a pause between phases of development, but I couldn't find anything where the maintainers actually said that.\n\nThere was also a change in who was doing the first work after the gap. Onur Ates authored the first returning commits, while Andrew Davison, who was already contributing before the pause, showed up again afterward. HFragnaud appears in the post-gap sample too. That makes this look more like development continuing with a slightly different group of active contributors than a project being abandoned and rescued. The later issue history doesn't go back far enough to settle why the 2018 pause happened."
+  },
+  "mobleylab_blues": {
+    "pattern": "declining",
+    "before": "Documentation updates:Other",
+    "after": "Dependency updates:Other",
+    "recent": "Documentation updates:Bug fixes",
+    "reason": "The activity was already declining, and a 2022 RDKit contribution in PR #175 was still unmerged in the available GitHub record. Maintenance or integration may have slowed down, but I can't pin down the actual reason for the gap.",
+    "recovered": "Partially: collected-history activity only",
+    "why": "Commits in February and March 2025 add tests, replace deprecated simtk imports, and update CI. They show someone trying to maintain the code, but they don't show those changes reaching the GitHub default branch.",
+    "who": "Steven Ayoub wrote the first ten post-gap commits in the sample. The pre-gap sample includes Yunhui Ge, sgill2, and Ke, so the people driving the sampled work changed.",
+    "discussion": "BLUES was one of the harder projects to figure out because the WoC data and GitHub tell somewhat different stories. WoC shows a 30-month gap followed by commits in 2025, mostly dealing with outdated dependencies and testing. But the GitHub default branch hasn't changed since January 2021, and the 2022 pull request I checked wasn't merged. So while somebody was clearly working on compatibility fixes and testing, I wouldn't call that a full recovery of the main project. I also couldn't find anything that definitively explains why it went quiet.",
+    "sources": [
+      "https://github.com/MobleyLab/blues/pull/175",
+      "https://github.com/MobleyLab/blues/pull/171",
+      "https://github.com/MobleyLab/blues/commits/"
+    ],
+    "notes": "BLUES went 30 months without a recorded commit, then the collected history picked up with compatibility and testing changes. The GitHub default branch still ends in January 2021, though, so I wouldn't count this as a confirmed upstream recovery. The long pause could reflect declining maintenance or unmerged contributions, but its cause isn't clear.",
+    "reflection": "BLUES had 1,658 commits in the collected data, but its activity declined over time. There were two gaps lasting at least three months, with the longest running from August 2022 through January 2025. That's 30 straight months without a recorded commit, which is a pretty significant break.\n\nWhat made this one harder to figure out was that WoC and GitHub didn't completely agree. WoC showed activity picking back up in 2025, but the main GitHub branch hadn't been updated since January 2021. There was also a pull request from 2022 that was never merged. So even though there were newer commits, I don't think there's enough evidence to say the original project actually recovered.\n\nLooking at the commit messages, the work before the gap included documentation changes, installation instructions, and some development involving RDKit. After the gap, the commits focused more on updating outdated dependencies, fixing compatibility issues, and testing. Most of that later work came from Steven Ayoub, whereas the earlier commits involved different contributors.\n\nMy best guess is that the project lost active maintenance or that contributions stopped getting integrated into the main branch. I couldn't find anything that definitively explained why. The later commits show that someone was trying to get the software working again, but that doesn't necessarily mean the project itself was revived."
+  },
+  "pydata_pandas-datareader": {
+    "pattern": "declining",
+    "before": "Other:Bug fixes",
+    "after": "Dependency updates:Bug fixes",
+    "recent": "Documentation updates:Bug fixes",
+    "reason": "Activity had become sparse, and the last pre-gap work included Yahoo-reader fixes and documentation. A maintenance lull seems likely, but the commits don't tell me why contributions stopped.",
+    "recovered": "Yes",
+    "why": "Starting April 2, 2025, commits addressed pandas 3 compatibility and then fixed dependency pins, installation, and CI. GitHub PR #1001 also shows that compatibility work being merged.",
+    "who": "Kevin Sheppard wrote all ten of the first post-gap commits sampled. The ten commits before the gap have other author labels; that shows who led the restart, not necessarily that Kevin was new.",
+    "discussion": "pandas-datareader was already slowing down before its seven-month gap from September 2024 through March 2025. What happened afterward is easier to understand than why it stopped: the April 2025 messages specifically mention pandas 3 compatibility, followed by dependency, installation, and CI fixes. PR #1001 was merged, so at least some of that work made it into the GitHub project. Kevin Sheppard wrote the first ten commits after the gap. I couldn't find enough evidence to say why the project went quiet originally.",
+    "sources": [
+      "https://github.com/pydata/pandas-datareader/pull/1001",
+      "https://github.com/pydata/pandas-datareader/commits/"
+    ],
+    "notes": "pandas-datareader had a seven-month gap after activity had already declined. It restarted with specific pandas compatibility and test/infrastructure fixes, led by Kevin Sheppard. The restart is well documented, but the reason for the pause isn't.",
+    "reflection": "pandas-datareader had 1,755 commits in the analyzed data, but the graph shows that development got pretty sparse before the longest gap. That gap lasted seven months, from September 2024 through March 2025, and there were four gaps of at least three months overall. I classified the trend as declining rather than treating this as one isolated interruption.\n\nI found the restart much easier to explain than the slowdown. The first April 2025 commits directly mention fixing compatibility with pandas 3, and the next changes deal with dependencies, installation, and CI. GitHub PR #1001 was merged, which also helps confirm that the compatibility work wasn't just sitting on an unrelated branch.\n\nKevin Sheppard authored the first ten commits after the gap. The ten before it include different author labels, but I don't want to assume that automatically means someone new took over the project. What I can say is that Kevin led the work that appears right after the pause.\n\nAs for why the seven-month gap happened in the first place, I couldn't establish a definite cause. The project was already seeing fewer commits, and the earlier messages included Yahoo-reader fixes and documentation work. That suggests maintenance had slowed down, but claims about funding, staffing, or abandonment would be guesses."
+  },
+  "sancus-pma_sancus-core": {
+    "pattern": "irregular",
+    "before": "Other:Feature development",
+    "after": "Security patches:Other",
+    "recent": "Security patches:Bug fixes",
+    "reason": "The project had worked on DMA attacks and tests before the gap, and its history is already intermittent. I couldn't find evidence establishing why the 18-month pause happened; the older timing issue gives context, not an explanation for the silence.",
+    "recovered": "Yes",
+    "why": "The first returning commit changes the crypto state machine to make tag verification constant-time. PR #33 and issue #27 tie that work to an identified timing side channel.",
+    "who": "Ruben Van Dijck led the post-gap security work, and Jo Van Bulck returned for CI maintenance. Jo also appears before the gap, so there was at least some contributor continuity.",
+    "discussion": "Sancus-core has a lot of stop-and-start activity: fourteen gaps of at least three months, including an 18-month gap from June 2023 through November 2024. Here the reason for the restart is unusually clear. The first post-gap work changes the cryptographic state machine to avoid a timing leak, and PR #33 links that work to the issue reported in #27. Ruben Van Dijck led the security fix, while Jo Van Bulck came back for CI work. But there are only six post-gap commits in the collected data, so I wouldn't call it a sustained revival.",
+    "sources": [
+      "https://github.com/sancus-tee/sancus-core/issues/27",
+      "https://github.com/sancus-tee/sancus-core/pull/33"
+    ],
+    "notes": "Sancus-core has fourteen three-month-or-longer gaps, with the longest lasting 18 months. It resumed with a security fix supported by issue #27 and PR #33, but only six post-gap commits were available. The reason for returning is clear; the reason for the long pause isn't.",
+    "reflection": "Sancus-core had one of the more irregular timelines I looked at. There were only 459 commits in the data, but fourteen different gaps lasted at least three months. The longest ran from June 2023 through November 2024, or 18 months. With that many stops and starts, I don't think it makes sense to describe the project as steadily active.\n\nThe reason the work picked up again is much clearer here than in most of the other projects. The first commit after the gap changes the cryptographic state machine so that verification takes constant time, and GitHub issue #27 describes the timing-side-channel problem. PR #33 connects directly to that fix. That's strong evidence of what brought someone back to the code.\n\nRuben Van Dijck authored the security change, and Jo Van Bulck also contributed afterward on CI maintenance. Jo had appeared before the gap too, so it wasn't an entirely different group replacing the original contributors.\n\nThe part I still couldn't explain is why the project stopped for 18 months before the fix. It could fit an intermittent research or maintenance schedule, but I didn't find a direct explanation. There are only six commits after the gap in this dataset, so even with a clear security-driven restart, I can't say it had returned to regular development."
+  },
+  "shellphish_driller": {
+    "pattern": "declining",
+    "before": "Bug fixes:Dependency updates",
+    "after": "Dependency updates:N/A",
+    "recent": "Bug fixes:Dependency updates",
+    "reason": "Commits had become isolated fixes even before the 34-month gap. A shift to occasional maintenance seems plausible, but I couldn't find a direct reason development slowed. Issue #94 shows that users still had problems during that time.",
+    "recovered": "Partially: one maintenance commit",
+    "why": "One commit on March 24, 2025, changes Driller to work with multiple angr versions. It ends the measured gap, but one update doesn't establish ongoing recovery.",
+    "who": "Audrey Dutcher made that one post-gap commit and also appears in the pre-gap history. This looks like a returning contributor, not a new person taking over.",
+    "discussion": "Driller has the longest gap of the ten projects: 34 months, from May 2022 through February 2025. Activity had already dropped from hundreds of commits to occasional maintenance fixes. The gap ended with one March 2025 commit by Audrey Dutcher to support multiple angr versions, and Audrey had contributed before the gap too. That's evidence of a returning maintainer making one compatibility fix, not a full project revival. The single post-gap message only supports one theme, so I left the second as N/A.",
+    "sources": [
+      "https://github.com/shellphish/driller/issues/94",
+      "https://github.com/shellphish/driller/commit/20a85b58"
+    ],
+    "notes": "Driller has a 34-month gap, the longest of these ten projects. One compatibility fix by a returning contributor ends it, but the data doesn't show sustained activity afterward. The reason for the earlier decline remains unknown.",
+    "reflection": "Driller had the longest inactivity gap of any project in this assignment. There were 568 commits in the collected history, but the graph drops off sharply after its earlier activity. It then goes 34 straight months without a commit, from May 2022 through February 2025. The project also had seven gaps of at least three months, so the slowdown wasn't limited to that one stretch.\n\nBefore the long gap, most of the commits were already bug fixes and dependency or test maintenance. I also checked issue #94, which showed that users were still reporting problems while development was quiet. That tells me people still had a reason to use the software, but it doesn't explain why the maintainers weren't committing changes.\n\nThe project finally had one commit in March 2025, when Audrey Dutcher updated Driller to work with multiple angr versions. Audrey also appeared before the gap, so this wasn't clearly someone new taking over. More importantly, I only have that one commit afterward. Calling that a full recovery would be a stretch.\n\nThis was easy to classify as declining and hard to explain causally. A move to occasional compatibility fixes makes sense from the messages, but I didn't find a definite explanation for why activity stopped for so long. There's also no reason to assign a second post-gap theme when only one commit exists."
+  },
+  "threeme3_qcx-ssb": {
+    "pattern": "declining",
+    "before": "Documentation updates:Bug fixes",
+    "after": "Other:Bug fixes",
+    "recent": "Other:Documentation updates",
+    "reason": "The project was already down to sporadic documentation and compatibility changes after its earlier activity. Occasional hobby-project maintenance is plausible, but nothing I found clearly says why the nine-month pause happened.",
+    "recovered": "Partially: intermittent collected-history activity",
+    "why": "Two August 2023 commits update usdx.ino without explaining much. Later message edits and the I2C fix in PR #86 show more maintenance, but not why those first changes restarted.",
+    "who": "Davi Lopes Dos Santos wrote the first post-gap commits; threeme3 and sq5bpf appear later in that sample. The earlier sample has guido and other labels, but those labels alone aren't proof of different people.",
+    "discussion": "QCX-SSB has a nine-month gap from November 2022 through July 2023, but the two commits that first follow it don't say much beyond editing usdx.ino. That makes the actual restart hard to interpret. Later changes, including the I2C fix in PR #86, show that someone was still maintaining the code from time to time. The repository has also moved to threeme3/usdx, and the latest default-branch commit has different author and committer dates, so I had to be careful comparing GitHub with the WoC timeline.",
+    "sources": [
+      "https://github.com/threeme3/usdx/pull/86",
+      "https://github.com/threeme3/usdx/commits/"
+    ],
+    "notes": "QCX-SSB's longest gap lasts nine months. It ends with two source edits that are hard to interpret, followed by occasional fixes. The repository rename to usdx and differing GitHub author/committer dates limit direct comparisons.",
+    "reflection": "QCX-SSB was a little messy to trace because the assigned WoC project name no longer matches the repository name on GitHub. It now redirects to threeme3/usdx. I found 460 commits in the collected history and six gaps of at least three months, with the longest lasting nine months from November 2022 through July 2023. Overall, the activity looks like a decline from earlier development into occasional updates.\n\nThe two commits that end the longest gap both modify usdx.ino, but their messages don't explain what was actually being changed. That's a problem when the assignment asks why a project started up again. I can see that commits happened, but I don't think those messages are enough to build a convincing story about why.\n\nThere is better evidence for later maintenance. GitHub PR #86 describes an I2C fix, and there were also email and documentation changes afterward. The first post-gap author was Davi Lopes Dos Santos, with other names appearing later in the sample. I wouldn't assume every different label is a different person without checking identities more carefully.\n\nThe GitHub dates add another complication: the latest default-branch commit was authored in June 2024 but committed in August 2025. Since the WoC graph uses author timestamps, I can't treat those two dates as interchangeable. My best interpretation is sporadic maintenance rather than a clear revival, and I couldn't find a definite cause for the original gap."
+  },
+  "vcflib_vcflib": {
+    "pattern": "irregular",
+    "before": "Documentation updates:Bug fixes",
+    "after": "Bug fixes:Dependency updates",
+    "recent": "Bug fixes:Feature development",
+    "reason": "The pre-gap commits were mostly installation, tests, and documentation work, so a maintenance lull is possible. There isn't enough evidence to say why no commits appeared from June through December 2021.",
+    "recovered": "Yes",
+    "why": "The January 2022 commits fix man-page installation, and PR #321 was merged. More dependency and bug fixes came afterward, so the restart shows continued development rather than one isolated change.",
+    "who": "Alexander Regueiro wrote the first post-gap fix. Pjotr Prins, who had been active before the gap, returned as well; Tim Massingham and Mathias Schmitt also appear afterward.",
+    "discussion": "vcflib went seven months without commits in 2021, then returned in January 2022 with a man-page installation fix. GitHub PR #321 was merged, and later commits tackled dependencies and bugs, so there's good evidence that the work actually resumed. The graph then shows a large 2022 spike rather than a smooth trend, which is why I called it irregular. Pjotr Prins contributed on both sides of the gap, with Alexander Regueiro and others in the post-gap sample. I still couldn't find a clear reason the project paused in 2021.",
+    "sources": [
+      "https://github.com/vcflib/vcflib/pull/321",
+      "https://github.com/vcflib/vcflib/commits/"
+    ],
+    "notes": "vcflib's seven-month gap ends with a merged installation fix and additional maintenance work. Its large 2022 activity spike makes the timeline irregular. There is clear evidence of renewed work, but not a clear cause for the pause.",
+    "reflection": "vcflib has 1,763 commits in the collected data, and its timeline is all over the place compared with a steady development pattern. The longest gap lasted seven months, from June through December 2021. There were three gaps of at least three months overall, but the huge increase in commits during 2022 was what stood out most to me. That's why I classified the pattern as irregular.\n\nThe first commits after the long gap fix an issue with installing man pages. I checked GitHub PR #321, and it was merged in January 2022. More dependency and bug fixes came after that, so I think there's enough evidence to say people actually returned to maintaining the project.\n\nAlexander Regueiro authored the first fix after the gap. Pjotr Prins, who appeared frequently before it, also returned, along with other contributors such as Tim Massingham and Mathias Schmitt. So I wouldn't describe the recovery as one entirely new group replacing another.\n\nThe harder part was figuring out why the project had been quiet for seven months. Before the pause there were installation, test, and documentation changes, which could fit a maintenance lull, but that's not proof of the cause. I also kept commits with similar messages when they had different SHA values, since they were distinct records in the collected history."
+  },
+  "vinecopulib_rvinecopulib": {
+    "pattern": "U-shaped",
+    "before": "Bug fixes:Release",
+    "after": "Bug fixes:Documentation updates",
+    "recent": "Release:Bug fixes",
+    "reason": "Release and compatibility work preceded the gap, and PR #235 remained open across the same general period. That could reflect delayed integration, but it doesn't prove why the project was inactive.",
+    "recovered": "Yes",
+    "why": "PR #235 merged on June 8, 2021, with R 4.1 compatibility updates. Later commits handled bugs, numerical precision, and documentation, which supports continued maintenance.",
+    "who": "Thomas Nagler and tnagler appear in the author records on both sides of the gap. The sampled history looks more like continuing contributions than a full maintainer change.",
+    "discussion": "rvinecopulib starts with high activity, drops off around 2021–2023, and rises again in 2024–2025, so U-shaped was the closest overall description. Its longest gap lasted four months in early 2021. PR #235 helps explain the restart: the delayed merge brought in R 4.1 compatibility work, and fixes and documentation followed. Thomas Nagler and tnagler appear on both sides, suggesting continuity. I couldn't establish why the merge took that long or why activity paused in the first place.",
+    "sources": [
+      "https://github.com/vinecopulib/rvinecopulib/pull/235",
+      "https://github.com/vinecopulib/rvinecopulib/commits/"
+    ],
+    "notes": "rvinecopulib's activity drops after its early peak and rises again in 2024–2025, giving it a broadly U-shaped pattern. A four-month gap ends with a delayed R compatibility merge and more fixes. Contributor labels overlap before and after the pause, while its cause remains uncertain.",
+    "reflection": "rvinecopulib had 1,230 commits in the collected history, and the overall graph looks roughly U-shaped. Activity was high early on, dropped through the 2021–2023 period, and picked up again in 2024–2025. It didn't necessarily get all the way back to its original level, but the later increase was enough for U-shaped to fit better than a steady decline. There were four gaps of at least three months, and the longest lasted four months from February through May 2021.\n\nThis gap was easier to connect to a specific piece of work. PR #235 stayed open for months and was eventually merged on June 8, 2021, with compatibility changes for R 4.1. After that, the commit messages include bug fixes, numerical precision improvements, and documentation updates. So I have a clearer picture of how work resumed than I do of why it paused.\n\nThomas Nagler and the tnagler author label appear on both sides of the gap. I don't want to make assumptions about identity just because the formatting is different, but it does suggest continuity rather than a sudden change in the project's contributors.\n\nMy guess is that release or maintenance work was waiting to be integrated, but I can't tell why it took that long. A delayed merge is evidence of timing, not evidence of someone's motivation. What I can defend is the four-month gap, the later increase in activity, and the specific R compatibility work that appeared when commits resumed."
+  }
+}

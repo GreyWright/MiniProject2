@@ -1,0 +1,112 @@
+{
+  "JuliaManifolds/Manifolds.jl": {
+    "requested_repository": "JuliaManifolds/Manifolds.jl",
+    "resolved_repository": "JuliaManifolds/Manifolds.jl",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "5f309f750c0538685a8eaa2c606c5fa8235c4127",
+    "latest_commit_committer_date_utc": "2025-09-10T19:32:06Z",
+    "commit_url": "https://github.com/JuliaManifolds/Manifolds.jl/commit/5f309f750c0538685a8eaa2c606c5fa8235c4127",
+    "api_request": "https://api.github.com/repos/JuliaManifolds/Manifolds.jl/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "pydata/pandas-datareader": {
+    "requested_repository": "pydata/pandas-datareader",
+    "resolved_repository": "pydata/pandas-datareader",
+    "default_branch_checked": "main",
+    "latest_commit_sha_on_or_before_2025_09_30": "1bb9a80d0204c4ecfd81d7722f1afc20c26f5217",
+    "latest_commit_committer_date_utc": "2025-09-24T18:22:08Z",
+    "commit_url": "https://github.com/pydata/pandas-datareader/commit/1bb9a80d0204c4ecfd81d7722f1afc20c26f5217",
+    "api_request": "https://api.github.com/repos/pydata/pandas-datareader/commits?sha=main&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "shellphish/driller": {
+    "requested_repository": "shellphish/driller",
+    "resolved_repository": "shellphish/driller",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "20a85b581269c22a832971800d460ffaab38800e",
+    "latest_commit_committer_date_utc": "2025-03-24T19:44:27Z",
+    "commit_url": "https://github.com/shellphish/driller/commit/20a85b581269c22a832971800d460ffaab38800e",
+    "api_request": "https://api.github.com/repos/shellphish/driller/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "threeme3/QCX-SSB": {
+    "requested_repository": "threeme3/QCX-SSB",
+    "resolved_repository": "threeme3/usdx",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "f49d227aff14ce9365f22f9f59e9d8a2b469711f",
+    "latest_commit_committer_date_utc": "2025-08-26T01:52:23Z",
+    "commit_url": "https://github.com/threeme3/usdx/commit/f49d227aff14ce9365f22f9f59e9d8a2b469711f",
+    "api_request": "https://api.github.com/repos/threeme3/usdx/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "humanbrainproject/fairgraph": {
+    "requested_repository": "humanbrainproject/fairgraph",
+    "resolved_repository": "HumanBrainProject/fairgraph",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "d75c6869e6b0f7df05108368b53dfe4985f2d249",
+    "latest_commit_committer_date_utc": "2025-09-26T10:04:54Z",
+    "commit_url": "https://github.com/HumanBrainProject/fairgraph/commit/d75c6869e6b0f7df05108368b53dfe4985f2d249",
+    "api_request": "https://api.github.com/repos/HumanBrainProject/fairgraph/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "sancus-pma/sancus-core": {
+    "requested_repository": "sancus-pma/sancus-core",
+    "resolved_repository": "sancus-tee/sancus-core",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "b6b53bb3c2c38b079d1c8210ab4940f0af77a6fb",
+    "latest_commit_committer_date_utc": "2025-05-19T08:19:58Z",
+    "commit_url": "https://github.com/sancus-tee/sancus-core/commit/b6b53bb3c2c38b079d1c8210ab4940f0af77a6fb",
+    "api_request": "https://api.github.com/repos/sancus-tee/sancus-core/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "vcflib/vcflib": {
+    "requested_repository": "vcflib/vcflib",
+    "resolved_repository": "vcflib/vcflib",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "885afe1abb9c7ec3e72696bd7dbf796e75e1daa8",
+    "latest_commit_committer_date_utc": "2025-07-06T07:55:54Z",
+    "commit_url": "https://github.com/vcflib/vcflib/commit/885afe1abb9c7ec3e72696bd7dbf796e75e1daa8",
+    "api_request": "https://api.github.com/repos/vcflib/vcflib/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "MobleyLab/blues": {
+    "requested_repository": "MobleyLab/blues",
+    "resolved_repository": "MobleyLab/blues",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "d2ef364749d4cbd7554add3ee61a5e90588760e1",
+    "latest_commit_committer_date_utc": "2021-01-22T02:24:57Z",
+    "commit_url": "https://github.com/MobleyLab/blues/commit/d2ef364749d4cbd7554add3ee61a5e90588760e1",
+    "api_request": "https://api.github.com/repos/MobleyLab/blues/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "vinecopulib/rvinecopulib": {
+    "requested_repository": "vinecopulib/rvinecopulib",
+    "resolved_repository": "vinecopulib/rvinecopulib",
+    "default_branch_checked": "main",
+    "latest_commit_sha_on_or_before_2025_09_30": "ba50731322b859ae1e3b3cbbc4a447335b13e290",
+    "latest_commit_committer_date_utc": "2025-06-13T13:04:03Z",
+    "commit_url": "https://github.com/vinecopulib/rvinecopulib/commit/ba50731322b859ae1e3b3cbbc4a447335b13e290",
+    "api_request": "https://api.github.com/repos/vinecopulib/rvinecopulib/commits?sha=main&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  },
+  "catboost/catboost": {
+    "requested_repository": "catboost/catboost",
+    "resolved_repository": "catboost/catboost",
+    "default_branch_checked": "master",
+    "latest_commit_sha_on_or_before_2025_09_30": "fb681a1720581c07f2e59bbfd6c37fef329a99c0",
+    "latest_commit_committer_date_utc": "2025-09-30T22:06:52Z",
+    "commit_url": "https://github.com/catboost/catboost/commit/fb681a1720581c07f2e59bbfd6c37fef329a99c0",
+    "api_request": "https://api.github.com/repos/catboost/catboost/commits?sha=master&until=2025-09-30T23%3A59%3A59Z&per_page=1",
+    "reference_end_utc": "2025-09-30T23:59:59Z",
+    "collected_on": "2026-10-08"
+  }
+}

@@ -1,0 +1,1675 @@
+project_wocid;commit_sha1;author;author_date;committer_date;commit message;url
+juliamanifolds_manifolds.jl;b1ded902e09d86c5398fe6ffdb945f0e7f15c52e;Ronny Bergmann;2026-09-30T11:06:58Z;2026-09-30T11:06:58Z;Bump version and date.;https://github.com/JuliaManifolds/Manifolds.jl/commit/b1ded902e09d86c5398fe6ffdb945f0e7f15c52e
+juliamanifolds_manifolds.jl;651492d7865f700d6b5db3673f8dbf6e366cc92f;Se Eun Choi;2026-09-30T11:05:49Z;2026-09-30T11:05:49Z;"Add the Veronese manifold (#924)
+
+* Add the Veronese manifold
+* Migrate Veronese tests to Manifolds.Test
+* Add Veronese ambient projection and zero vectors
+* Update Veronese contributor and journal metadata
+* Add Veronese representative and distance operations
+* Add orthonormal coordinates for Veronese
+* Refine Veronese docstrings
+
+---------
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>";https://github.com/JuliaManifolds/Manifolds.jl/commit/651492d7865f700d6b5db3673f8dbf6e366cc92f
+juliamanifolds_manifolds.jl;0ffc2bfe5421a52397d6e6b8a7e1a937363a21ec;Mateusz Baran;2026-09-25T19:06:30Z;2026-09-25T19:06:30Z;"Fix forwarding types of statistics-related functions (#930)
+
+* Fix forwarding types of statistics-related functions
+
+* Bump ManifoldsBase dependency for this fix.
+
+* set date
+
+* fix some issues
+
+* bump ambiguities for now
+
+---------
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>";https://github.com/JuliaManifolds/Manifolds.jl/commit/0ffc2bfe5421a52397d6e6b8a7e1a937363a21ec
+juliamanifolds_manifolds.jl;be937d4b57f443fef38641b1e14322adb56bc075;Mateusz Baran;2026-09-22T17:37:25Z;2026-09-22T17:37:25Z;"🌾 (#917)
+
+* Part 1 of Jacobi fields
+
+* Part 2 of Jacobi fields
+
+* simplify _jacobi_endpoint_coordinates
+
+* use in-place chart problems
+
+* fix formatting
+
+* move atlas tests to the integration group
+
+* performance of stereographic atlas and some docstrings
+
+* Add chart-based volume_density
+
+* optimize _jacobi_exp_argument_matrix
+
+* expand docs
+
+* add adjoint differentials
+
+* formatting
+
+* improve coverage
+
+* atlas on the Grassmann manifold
+
+* try a more verbose tutorial output
+
+* unify _jacobi_exp_argument_matrix and _jacobi_exp_basepoint_matrix
+
+* I might as well dance... :/
+
+* fix chart function list in docs
+
+* improve tests, sun tutorial with log again (?)
+
+* tutorial updates
+
+* adapt to SciML indexing change
+
+* add pre-rendered working in charts tutorial
+
+* fix typo
+
+* minor fixes to the tutorial
+
+* minor updates to the tutorial
+
+* add atlas to Stiefel
+
+* add some new tests
+
+* news entry
+
+* Add reference for GrassmannAtlas
+
+* WIP: parametric surfaces
+
+* power and product atlases + small fixes
+
+* Make parametric surface test work with Torus
+
+* fix a few issues
+
+* minor tweaks, disambiguation
+
+* add ForwardDiff to docs deps
+
+* update news
+
+* improve coverage + fix some issues
+
+* improve coverage again
+
+* Support induced basis for PowerManifoldNestedReplacing + tests
+
+* use alphabetical order
+
+* fix Ricci contraction order
+
+* fix test; rerun the tutorial
+
+* Also format md and qmd files using Runic
+
+* address some parts of the review
+
+* Update src/manifolds/ParametricSurface.jl
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>
+
+* Update src/manifolds/ParametricSurface.jl
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>
+
+* address more review
+
+* add some math formulas
+
+* Apply batched suggestions from code review
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>
+
+* use the new test suite
+
+* adapt to rename
+
+* fix test calling
+
+* Update release date
+
+---------
+
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>";https://github.com/JuliaManifolds/Manifolds.jl/commit/be937d4b57f443fef38641b1e14322adb56bc075
+juliamanifolds_manifolds.jl;4b5fb0b3706dcefeb830b25f0b02fe7f6ff10215;dependabot[bot];2026-09-18T03:34:23Z;2026-09-18T03:34:23Z;Update CSV requirement 1.0 (#929);https://github.com/JuliaManifolds/Manifolds.jl/commit/4b5fb0b3706dcefeb830b25f0b02fe7f6ff10215
+juliamanifolds_manifolds.jl;d8bdc65b6c35d166c645c2ef89221b811197e4eb;Ronny Bergmann;2026-09-16T09:13:51Z;2026-09-16T09:13:51Z;lower bound Julia in all Project.toml s of the workspace. (#927);https://github.com/JuliaManifolds/Manifolds.jl/commit/d8bdc65b6c35d166c645c2ef89221b811197e4eb
+juliamanifolds_manifolds.jl;71c575e82fe508148e5163e5070524bd31523f52;dependabot[bot];2026-09-15T13:06:56Z;2026-09-15T13:06:56Z;"Bump the all-julia-packages group across 4 directories with 3 updates (#926)
+
+Updates the requirements on Test, LinearAlgebra and Markdown to permit the latest version.
+
+Updates `Test` to 
+
+Updates `Test` to 
+
+Updates `LinearAlgebra` to 
+
+Updates `Markdown` to 
+
+---
+updated-dependencies:
+- dependency-name: Test
+  dependency-version:
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: Test
+  dependency-version:
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: LinearAlgebra
+  dependency-version:
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: Markdown
+  dependency-version:
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";https://github.com/JuliaManifolds/Manifolds.jl/commit/71c575e82fe508148e5163e5070524bd31523f52
+juliamanifolds_manifolds.jl;bcf61039e07b33224de64979a2d79f5e8bf8efeb;Ronny Bergmann;2026-09-15T12:33:45Z;2026-09-15T12:33:45Z;Extend and fix runic formatting. (#925);https://github.com/JuliaManifolds/Manifolds.jl/commit/bcf61039e07b33224de64979a2d79f5e8bf8efeb
+juliamanifolds_manifolds.jl;c30cee61d0294dd0eb143997a66f3912156047da;dependabot[bot];2026-09-15T11:23:27Z;2026-09-15T11:23:27Z;"Bump the all-julia-packages group across 1 directory with 2 updates (#923)
+
+* Bump the all-julia-packages group across 1 directory with 2 updates
+
+Updates the requirements on [DocumenterLandingPage](https://github.com/csvance/DocumenterLandingPage.jl) and [DocumenterCodeBlocks](https://github.com/fredrikekre/DocumenterCodeBlocks.jl) to permit the latest version.
+
+Updates `DocumenterLandingPage` to 0.2.1
+- [Release notes](https://github.com/csvance/DocumenterLandingPage.jl/releases)
+- [Commits](https://github.com/csvance/DocumenterLandingPage.jl/compare/v0.1.0...v0.2.1)
+
+Updates `DocumenterCodeBlocks` to 1.5.0
+- [Release notes](https://github.com/fredrikekre/DocumenterCodeBlocks.jl/releases)
+- [Changelog](https://github.com/fredrikekre/DocumenterCodeBlocks.jl/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/fredrikekre/DocumenterCodeBlocks.jl/compare/v1.0.0...v1.5.0)
+
+---
+updated-dependencies:
+- dependency-name: DocumenterLandingPage
+  dependency-version: 0.2.1
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: DocumenterCodeBlocks
+  dependency-version: 1.5.0
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* improve dependabot to not check changelog, raise a tolerance
+
+* raise a tolerance.
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: Ronny Bergmann <git@ronnybergmann.net>";https://github.com/JuliaManifolds/Manifolds.jl/commit/c30cee61d0294dd0eb143997a66f3912156047da
+juliamanifolds_manifolds.jl;d737896d86e3439819a43702c5f2ea2be95ca148;dependabot[bot];2026-09-04T11:03:46Z;2026-09-04T11:03:46Z;"Bump the all-julia-packages group across 4 directories with 1 update (#920)
+
+Updates the requirements on  and [NLsolve](https://github.com/JuliaNLSolvers/NLsolve.jl) to permit the latest version.
+
+Updates `NLsolve` to 5.0.1
+- [Release notes](https://github.com/JuliaNLSolvers/NLsolve.jl/releases)
+- [Commits](https://github.com/JuliaNLSolvers/NLsolve.jl/compare/4.0.0...v5.0.1)
+
+Updates `NLsolve` to 5.0.1
+- [Release notes](https://github.com/JuliaNLSolvers/NLsolve.jl/releases)
+- [Commits](https://github.com/JuliaNLSolvers/NLsolve.jl/compare/4.0.0...v5.0.1)
+
+Updates `NLsolve` to 5.0.1
+- [Release notes](https://github.com/JuliaNLSolvers/NLsolve.jl/releases)
+- [Commits](https://github.com/JuliaNLSolvers/NLsolve.jl/compare/4.0.0...v5.0.1)
+
+Updates `NLsolve` to 5.0.1
+- [Release notes](https://github.com/JuliaNLSolvers/NLsolve.jl/releases)
+- [Commits](https://github.com/JuliaNLSolvers/NLsolve.jl/compare/4.0.0...v5.0.1)
+
+---
+updated-dependencies:
+- dependency-name: NLsolve
+  dependency-version: 5.0.1
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: NLsolve
+  dependency-version: 5.0.1
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: NLsolve
+  dependency-version: 5.0.1
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+- dependency-name: NLsolve
+  dependency-version: 5.0.1
+  dependency-type: direct:production
+  dependency-group: all-julia-packages
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";https://github.com/JuliaManifolds/Manifolds.jl/commit/d737896d86e3439819a43702c5f2ea2be95ca148
+pydata_pandas-datareader;9a3e2fe8c4e202bf9be6b4543fd1a06c3cdce7de;Kevin Sheppard;2026-07-21T08:27:57Z;2026-07-21T08:27:57Z;"Merge pull request #1030 from pydata/dependabot/github_actions/actions/setup-python-7
+
+chore(deps): bump actions/setup-python from 6 to 7";https://github.com/pydata/pandas-datareader/commit/9a3e2fe8c4e202bf9be6b4543fd1a06c3cdce7de
+pydata_pandas-datareader;8574b6a912bcbed9c7ff3e92e70020c69754e8c7;dependabot[bot];2026-07-21T08:23:58Z;2026-07-21T08:23:58Z;"chore(deps): bump actions/setup-python from 6 to 7
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6 to 7.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>";https://github.com/pydata/pandas-datareader/commit/8574b6a912bcbed9c7ff3e92e70020c69754e8c7
+pydata_pandas-datareader;f46db6616fd399ea6cc2ade2d128792ae840c094;Kevin Sheppard;2026-06-24T14:12:47Z;2026-06-24T14:12:47Z;"Merge pull request #1027 from bashtage/fix-issue-oecd
+
+BUG: Fix over indexing";https://github.com/pydata/pandas-datareader/commit/f46db6616fd399ea6cc2ade2d128792ae840c094
+pydata_pandas-datareader;9fa6560cda1fb8e3b4910ee687a938a4574fcf33;Kevin Sheppard;2026-06-24T14:08:14Z;2026-06-24T14:08:14Z;"BUG: Fix over indexing
+
+Remove invalid columns by dropna all";https://github.com/pydata/pandas-datareader/commit/9fa6560cda1fb8e3b4910ee687a938a4574fcf33
+pydata_pandas-datareader;951626f63dcaf421d96b83c09e458633dcf1aadf;Kevin Sheppard;2026-06-24T09:18:44Z;2026-06-24T09:18:44Z;"Merge pull request #1023 from bashtage/readme
+
+MAINT: Update gitignore";https://github.com/pydata/pandas-datareader/commit/951626f63dcaf421d96b83c09e458633dcf1aadf
+pydata_pandas-datareader;f738953761e630dddaa7bb64e520d052816c55cd;Kevin Sheppard;2026-06-24T09:08:38Z;2026-06-24T09:08:38Z;"Merge pull request #1026 from bashtage/rtd
+
+DOC: More changes to RTD";https://github.com/pydata/pandas-datareader/commit/f738953761e630dddaa7bb64e520d052816c55cd
+pydata_pandas-datareader;170b408826ffa589cfe044e35c4931e168ee937e;Kevin Sheppard;2026-06-24T09:08:23Z;2026-06-24T09:08:23Z;DOC: More changes to RTD;https://github.com/pydata/pandas-datareader/commit/170b408826ffa589cfe044e35c4931e168ee937e
+pydata_pandas-datareader;b40e8f62bbb214a740e302a99bc9686e451c617d;Kevin Sheppard;2026-06-24T09:00:09Z;2026-06-24T09:00:09Z;"Merge pull request #1025 from bashtage/rtd
+
+DOC: More changes to RTD";https://github.com/pydata/pandas-datareader/commit/b40e8f62bbb214a740e302a99bc9686e451c617d
+pydata_pandas-datareader;1eea075cf5a1939cc39a3b03c3fd961d9a89d7fe;Kevin Sheppard;2026-06-24T08:59:51Z;2026-06-24T08:59:51Z;DOC: More changes to RTD;https://github.com/pydata/pandas-datareader/commit/1eea075cf5a1939cc39a3b03c3fd961d9a89d7fe
+pydata_pandas-datareader;3452ca8e4aae4e2afbde755117f8573172aeb323;Kevin Sheppard;2026-06-24T08:57:16Z;2026-06-24T08:57:16Z;"Merge pull request #1024 from bashtage/rtd
+
+BLD: Add RTD configuration";https://github.com/pydata/pandas-datareader/commit/3452ca8e4aae4e2afbde755117f8573172aeb323
+shellphish_driller;20a85b581269c22a832971800d460ffaab38800e;Audrey Dutcher;2025-03-24T19:44:27Z;2025-03-24T19:44:27Z;work with multiple versions of angr;https://github.com/shellphish/driller/commit/20a85b581269c22a832971800d460ffaab38800e
+shellphish_driller;bb8259926e5f07e6653c71d0ae7f02695ebfba84;Mohit Patil;2022-04-13T20:04:57Z;2022-04-13T20:04:57Z;"Remove nose imports (#92)
+
+* Removed nose imports in test_driller.py
+
+* Removed nose imports in test_driller.py";https://github.com/shellphish/driller/commit/bb8259926e5f07e6653c71d0ae7f02695ebfba84
+shellphish_driller;e9d2b6d2627ab6352243bbb0d51cde3daa7323f5;Arvind;2021-03-31T01:58:17Z;2021-03-31T06:22:06Z;Unsat states must be treated as potential successors in Tracer;https://github.com/shellphish/driller/commit/e9d2b6d2627ab6352243bbb0d51cde3daa7323f5
+shellphish_driller;ad9643afa38e7f5cd72106925bac0c8d9315b630;Yasaman Ghassemi;2020-09-03T22:31:42Z;2020-09-03T22:31:42Z;"Update driller_main.py (#84)
+
+I have checked your scripts around Driller, and I think there is a problem in the driller_main.py script. When creating an object from DrillerCore, the value of fuzz_bitmap (that has been obtained from AFL) is not passed to its constructor. Consequently, the constructor will initialize self.fuzz_bitmap to the default value (namely, b""\xff"" * 65536).";https://github.com/shellphish/driller/commit/ad9643afa38e7f5cd72106925bac0c8d9315b630
+shellphish_driller;f584e8e010b7376bcf7785fb6ff5fd023556f53e;Audrey Dutcher;2019-10-29T22:02:31Z;2019-10-29T22:02:31Z;nuke travis;https://github.com/shellphish/driller/commit/f584e8e010b7376bcf7785fb6ff5fd023556f53e
+shellphish_driller;5ab736700d42fe6f2157d75425d244fd140bcd2a;Audrey Dutcher;2019-04-29T19:09:40Z;2019-04-29T19:09:40Z;enable tracing options for states, which were (accidentally?) disabled in c20d4410;https://github.com/shellphish/driller/commit/5ab736700d42fe6f2157d75425d244fd140bcd2a
+shellphish_driller;42d288331ae98dd7f2b3344732b4a3e26d747c5a;Lukas Dresel;2019-04-09T18:42:54Z;2019-04-09T18:42:54Z;fixed bug introduced by 01c8425187c9fd30fc3a30e0e6c1ab9ee0b33a3a;https://github.com/shellphish/driller/commit/42d288331ae98dd7f2b3344732b4a3e26d747c5a
+shellphish_driller;96d3acd2f97b8ce95442c8ae10c1923b53e4a2a7;Philipp Bartsch;2018-11-11T21:30:50Z;2018-12-18T17:28:49Z;Fix python3 str vs bytes issue;https://github.com/shellphish/driller/commit/96d3acd2f97b8ce95442c8ae10c1923b53e4a2a7
+shellphish_driller;3f656fc469374c7cd972302766f1f15172f55969;Ren Kimura;2018-11-06T06:06:47Z;2018-11-06T06:19:18Z;Use binary reading mode for python3;https://github.com/shellphish/driller/commit/3f656fc469374c7cd972302766f1f15172f55969
+shellphish_driller;c2f1b6ce66b633c94bf187ca72e6afd4d278adca;Audrey Dutcher;2018-10-27T20:53:23Z;2018-10-27T20:53:23Z;Be careful about removing state options...;https://github.com/shellphish/driller/commit/c2f1b6ce66b633c94bf187ca72e6afd4d278adca
+threeme3_qcx-ssb;f49d227aff14ce9365f22f9f59e9d8a2b469711f;threeme3;2024-06-29T03:18:10Z;2025-08-26T01:52:23Z;Email change;https://github.com/threeme3/usdx/commit/f49d227aff14ce9365f22f9f59e9d8a2b469711f
+threeme3_qcx-ssb;618a12771a43688ae9dba6069b8bed75485dadc9;threeme3;2024-06-29T03:16:58Z;2024-06-29T03:16:58Z;Email change;https://github.com/threeme3/usdx/commit/618a12771a43688ae9dba6069b8bed75485dadc9
+threeme3_qcx-ssb;a13d7d34073017b30b2a5c22ef299ae5e2332000;threeme3;2022-10-31T19:54:04Z;2022-10-31T19:54:04Z;Fix for Arduino 2.0 IDE;https://github.com/threeme3/usdx/commit/a13d7d34073017b30b2a5c22ef299ae5e2332000
+threeme3_qcx-ssb;63fb397ee68de7a33a693c7bd5b4f0144c0dfb51;guido;2022-03-22T10:03:25Z;2022-03-22T10:17:11Z;Fix CW key-down/key-up waveform issue (TNX Dave, M0JTS). Fix index key-up waveform.;https://github.com/threeme3/usdx/commit/63fb397ee68de7a33a693c7bd5b4f0144c0dfb51
+threeme3_qcx-ssb;c3114c99f089c01c6c8895f18483a02b92eb571c;guido;2021-11-18T16:42:43Z;2021-11-18T16:54:29Z;Minor changes.;https://github.com/threeme3/usdx/commit/c3114c99f089c01c6c8895f18483a02b92eb571c
+threeme3_qcx-ssb;7aa3589abe3017ebe9cbf009dc5dd8564c40de38;guido;2021-11-18T16:07:34Z;2021-11-18T16:07:34Z;Change project name.;https://github.com/threeme3/usdx/commit/7aa3589abe3017ebe9cbf009dc5dd8564c40de38
+threeme3_qcx-ssb;7245a135b156b2322c80324d8db9813f060fbbf5;guido;2021-11-17T18:04:36Z;2021-11-17T18:04:36Z;Change README.;https://github.com/threeme3/usdx/commit/7245a135b156b2322c80324d8db9813f060fbbf5
+threeme3_qcx-ssb;8be911fb38413a2b7ad678bd06e01e024dbee839;guido;2021-11-17T16:56:15Z;2021-11-17T16:56:15Z;Update README.;https://github.com/threeme3/usdx/commit/8be911fb38413a2b7ad678bd06e01e024dbee839
+threeme3_qcx-ssb;4fc60f5c8d74ba7364cf891e008b920ab5e5c82d;guido;2021-08-22T20:46:17Z;2021-08-23T20:56:51Z;Minor changes.;https://github.com/threeme3/usdx/commit/4fc60f5c8d74ba7364cf891e008b920ab5e5c82d
+threeme3_qcx-ssb;00e560fd28e5efcb3809c454cc99642546e81652;guido;2021-08-16T14:25:03Z;2021-08-16T14:25:03Z;Add experimental support for I2C LCD display. Add experimental LCD2004 support. Add optmization for faster I2C display writes.;https://github.com/threeme3/usdx/commit/00e560fd28e5efcb3809c454cc99642546e81652
+humanbrainproject_fairgraph;6e34dc65d9cf593d2370cdaa07a04d6f7d34be0c;Andrew Davison;2026-10-06T14:00:28Z;2026-10-06T14:00:28Z;update notebook to work around a bug fixed in 0.15.0 but present in 0.13.3;https://github.com/HumanBrainProject/fairgraph/commit/6e34dc65d9cf593d2370cdaa07a04d6f7d34be0c
+humanbrainproject_fairgraph;2965462a9dd92d81e97ae9259ef62bd14cff6564;Andrew Davison;2026-10-06T13:40:03Z;2026-10-06T13:40:03Z;Add a README for the example notebooks;https://github.com/HumanBrainProject/fairgraph/commit/2965462a9dd92d81e97ae9259ef62bd14cff6564
+humanbrainproject_fairgraph;04b8935421ff7da598a21c4b568d66d0508e72ce;Andrew Davison;2026-10-06T12:51:09Z;2026-10-06T12:51:09Z;Merge branch 'data-provider-tutorial';https://github.com/HumanBrainProject/fairgraph/commit/04b8935421ff7da598a21c4b568d66d0508e72ce
+humanbrainproject_fairgraph;442be0f14b58c3d7072bb73c1f9fbbb425245950;Andrew Davison;2026-10-02T13:57:53Z;2026-10-06T12:50:48Z;"Add a tutorial notebook for data consumers
+
+This is the hands-on material for the fairgraph part of the ""EBRAINS Knowledge Graph for data consumers"" tutorial. It covers reading metadata only: connecting, finding research products by id, name, DOI and property filters, following forward and reverse links, looking up controlled terms, and downloading files. Creating and saving metadata is left to the companion tutorial for data providers.
+
+Sections 7 to 10 are marked optional and cover local JSON-LD snapshots with Collection, custom queries, release status and spaces, and error handling.
+
+The notebook targets the production Knowledge Graph, and runs end to end on fairgraph 0.13.3, which the EBRAINS-experimental kernel in the EBRAINS Software Distribution currently has, as well as on 0.15.0 and on the development version. The handful of cells needing something newer than 0.13.3 - Regex filters, the case_sensitive option of by_name(), Equals, sort_property, and reloading a Collection from a file - check for it first and print a message rather than failing.";https://github.com/HumanBrainProject/fairgraph/commit/442be0f14b58c3d7072bb73c1f9fbbb425245950
+humanbrainproject_fairgraph;f76faaf1bfdd382222120ef602478ffb7f886ea2;Andrew Davison;2026-10-03T12:37:08Z;2026-10-05T12:15:19Z;"Add a tutorial notebook for data providers
+
+This is the hands-on material for the fairgraph part of the ""EBRAINS Knowledge Graph for data providers"" tutorial, covering the writing side: building nodes, validating them locally, saving them, and understanding how fairgraph decides between creating a node and updating an existing one. It ends with a complete dataset, the curation workflow, bulk upload with Collection, and a cleanup section. The companion notebook for data consumers covers reading.
+
+Files are not registered one by one: the notebook describes a FileRepository pointing at a Collaboratory bucket and notes that the Knowledge Graph ingests the files it finds there. Creating File nodes by hand is kept as an optional section, for repositories the service does not cover, together with the reason it is slow.
+
+Everything writes to the pre-production Knowledge Graph, in the user's private ""myspace"", so that nothing participants create reaches production. The example dataset is deliberately fictional.
+
+Verified by running every cell against fairgraph 0.13.3 with openMINDS 0.5.1, against 0.15.0, and against the development version. The stored outputs come from 0.15.0, since the existence-matching behaviour demonstrated in section 4 differs between released versions and the unreleased exact-matching work.";https://github.com/HumanBrainProject/fairgraph/commit/f76faaf1bfdd382222120ef602478ffb7f886ea2
+humanbrainproject_fairgraph;73b0751739fab868f160328fd8fc0223d750602d;Andrew Davison;2026-09-29T06:37:08Z;2026-09-29T06:37:08Z;"Merge pull request #152 from apdavison/exact-existence-matching
+
+Match existence queries exactly by default, and add an existence_match option";https://github.com/HumanBrainProject/fairgraph/commit/73b0751739fab868f160328fd8fc0223d750602d
+humanbrainproject_fairgraph;de2cdef4e1e018697b4fd1e7b428d379a0cab7c2;Andrew Davison;2026-09-28T13:23:01Z;2026-09-28T16:03:45Z;"Match existence queries exactly by default, and add an existence_match option
+
+The existence query used by exists() and save() filtered string properties with the KG's CONTAINS operator, so a new Dataset called FOO was identified with an existing one called FOO-BAR and silently overwrote it (#149). Existence queries now use EQUALS, which the KG applies case-insensitively but not whitespace-insensitively, so a stored name with a trailing space is no longer found by a local name without one.
+
+exists() and save() take a new existence_match argument, either ""equals"" (the default, matching name_matching.MATCH_TYPES) or ""contains"" to restore the old behaviour; save() passes it on to child objects. The save cache holds a match found with ""contains"" under a separate key, so that it is not later returned for an ""equals"" lookup. Collection.upload() does not expose the option and always matches exactly.
+
+The exact match is implemented by a new Equals filter value, the counterpart of Regex, which selects the EQUALS operator in place of CONTAINS. It is exported from fairgraph and documented in the API reference and the queries guide. A list of Equals values is not supported and falls back to CONTAINS, as for Regex (#150).
+
+MockKGClient in test/utils.py gained matching case-insensitive EQUALS handling.";https://github.com/HumanBrainProject/fairgraph/commit/de2cdef4e1e018697b4fd1e7b428d379a0cab7c2
+humanbrainproject_fairgraph;c2d6f472290939755acf9beceb89f85717b99316;Andrew Davison;2026-09-28T15:50:54Z;2026-09-28T15:50:54Z;"Merge pull request #151 from apdavison/normalise-whitespace
+
+Strip leading and trailing whitespace from text properties when saving";https://github.com/HumanBrainProject/fairgraph/commit/c2d6f472290939755acf9beceb89f85717b99316
+humanbrainproject_fairgraph;2076c8010410d1f1f775a50008ec749f46c78971;Andrew Davison;2026-09-28T15:17:00Z;2026-09-28T15:38:20Z;Strip leading and trailing whitespace from text properties when saving;https://github.com/HumanBrainProject/fairgraph/commit/2076c8010410d1f1f775a50008ec749f46c78971
+humanbrainproject_fairgraph;a2472d7e4a492b76cc490b75be6853a97f931844;Andrew Davison;2026-09-28T14:54:06Z;2026-09-28T14:54:06Z;Split utility.py into a utility package and move name_matching into it;https://github.com/HumanBrainProject/fairgraph/commit/a2472d7e4a492b76cc490b75be6853a97f931844
+sancus-pma_sancus-core;b6b53bb3c2c38b079d1c8210ab4940f0af77a6fb;Ruben Van Dijck;2025-05-19T08:19:58Z;2025-05-19T08:19:58Z;"Changes to the crypto unit state machine: added register ensuring constant-time execution (#33)
+
+Closes #27 #34
+
+More info in Systex'25 paper: <https://vanbulck.net/files/systex25-wait.pdf>";https://github.com/sancus-tee/sancus-core/commit/b6b53bb3c2c38b079d1c8210ab4940f0af77a6fb
+sancus-pma_sancus-core;3f6d12d032b615a2935eaa42275bd93ad0c4c2a9;Jo Van Bulck;2025-05-12T14:33:11Z;2025-05-12T14:33:11Z;"CI: move to ubuntu 22.04
+
+ubuntu 24.04 misses the msp430-gcc package";https://github.com/sancus-tee/sancus-core/commit/3f6d12d032b615a2935eaa42275bd93ad0c4c2a9
+sancus-pma_sancus-core;d83a5207dc5b079847dba39ac17e98fcb4bc088f;Jo Van Bulck;2023-05-09T10:56:03Z;2023-05-09T10:56:03Z;"Merge pull request #32 from sancus-tee/dma-attack
+
+Refinements to the DMA attacks";https://github.com/sancus-tee/sancus-core/commit/d83a5207dc5b079847dba39ac17e98fcb4bc088f
+sancus-pma_sancus-core;bd2e2dfa6b49565f79abd66aebc0a69f1369fa80;marton bognar;2023-04-17T11:55:35Z;2023-04-17T11:55:35Z;Add test case to demonstrate a DMA-based covert channel;https://github.com/sancus-tee/sancus-core/commit/bd2e2dfa6b49565f79abd66aebc0a69f1369fa80
+sancus-pma_sancus-core;79958d426c65ebb026531e284949f8828af36059;marton bognar;2022-10-27T15:25:19Z;2022-10-27T15:25:19Z;Parameterize the capture trace length of the DMA peripheral;https://github.com/sancus-tee/sancus-core/commit/79958d426c65ebb026531e284949f8828af36059
+sancus-pma_sancus-core;c3a8b7af7d8574b2387870e55decc0472a7d197f;Jo Van Bulck;2022-10-17T17:18:31Z;2022-10-17T17:23:08Z;Fix missing timescale error option on Ubuntu < 22.04.;https://github.com/sancus-tee/sancus-core/commit/c3a8b7af7d8574b2387870e55decc0472a7d197f
+sancus-pma_sancus-core;09adaef918ea54fac8eeb6c5bac40b9104c138f0;Jo Van Bulck;2022-10-17T11:14:20Z;2022-10-17T11:14:20Z;Supress warnings in recent verilator.;https://github.com/sancus-tee/sancus-core/commit/09adaef918ea54fac8eeb6c5bac40b9104c138f0
+sancus-pma_sancus-core;ddcb06c5a77232c3e7fd1f4a3d497e5102c0f147;Jo Van Bulck;2021-11-29T12:32:28Z;2021-11-29T12:32:28Z;"Create LICENSE
+
+cf. original, upstream openmsp430 BSD 3-clause license.";https://github.com/sancus-tee/sancus-core/commit/ddcb06c5a77232c3e7fd1f4a3d497e5102c0f147
+sancus-pma_sancus-core;93ad05a87836b6a5aef7eda54b3c7d52fb6f8d7f;Jo Van Bulck;2021-10-19T15:55:29Z;2021-10-19T15:55:29Z;"core: hold on to eu_mb_en during SSA_WAIT cycle
+
+THis prevents any (untrusted) DMA devices to overwrite the value on the
+shared bus.
+
+Fixes #28";https://github.com/sancus-tee/sancus-core/commit/93ad05a87836b6a5aef7eda54b3c7d52fb6f8d7f
+sancus-pma_sancus-core;f569860f4319ce974da9689d2ef4e5f6ec210e47;Jo Van Bulck;2021-10-19T15:13:25Z;2021-10-19T15:13:25Z;tests: fix sancus/crypto_irq;https://github.com/sancus-tee/sancus-core/commit/f569860f4319ce974da9689d2ef4e5f6ec210e47
+vcflib_vcflib;6f16fb86da8ddf490702772d954c66e88331ba37;Pjotr Prins;2026-10-02T09:52:44Z;2026-10-02T09:59:30Z;Patch warning, see #443 - thanks @outpaddling;https://github.com/vcflib/vcflib/commit/6f16fb86da8ddf490702772d954c66e88331ba37
+vcflib_vcflib;093dadaef154c30ce9070ed933edea17379f83c4;Pjotr Prins;2026-10-02T09:45:19Z;2026-10-02T09:45:19Z;"Merge pull request #449 from glennhickey/parallel-sites
+
+Parallelize vcfwave across records with -t";https://github.com/vcflib/vcflib/commit/093dadaef154c30ce9070ed933edea17379f83c4
+vcflib_vcflib;febcaabff6ee7454453a369a56e424d313eda0a5;Pjotr Prins;2026-10-02T09:44:08Z;2026-10-02T09:44:08Z;"Merge pull request #450 from cmdcolin/fix-at-number-r-index
+
+vcfwave: index Number=R INFO fields by allele, not by ALT (AT names the wrong allele)";https://github.com/vcflib/vcflib/commit/febcaabff6ee7454453a369a56e424d313eda0a5
+vcflib_vcflib;459ffdd04fbc5f1347ad66651debccb5b5190f63;Pjotr Prins;2026-10-02T09:42:18Z;2026-10-02T09:42:18Z;"Merge pull request #451 from AbhinavMir/vcfclassify-transversion-flag
+
+vcfclassify: only flag single base substitutions as transversions";https://github.com/vcflib/vcflib/commit/459ffdd04fbc5f1347ad66651debccb5b5190f63
+vcflib_vcflib;5fee0cbf518ca7dc1578f5a8243cfac71a95e242;glm;2026-09-18T13:21:16Z;2026-09-18T13:21:16Z;Update copyright years 2025 -> 2026 in new sources and test docs;https://github.com/vcflib/vcflib/commit/5fee0cbf518ca7dc1578f5a8243cfac71a95e242
+vcflib_vcflib;e20bd4fac224d145be5e62040376be585885cada;glm;2026-09-18T13:20:34Z;2026-09-18T13:20:34Z;Test doc title: no fuzz reference;https://github.com/vcflib/vcflib/commit/e20bd4fac224d145be5e62040376be585885cada
+vcflib_vcflib;8e7491b436c38d4e0050f1963776193c58f4f51b;glm;2026-09-18T13:19:34Z;2026-09-18T13:19:34Z;RELEASE_NOTES: document vcfvalidate and --norm-multiallelic;https://github.com/vcflib/vcflib/commit/8e7491b436c38d4e0050f1963776193c58f4f51b
+vcflib_vcflib;25298db2a4d9ac09d8d511606a0a7c3f89100f58;glm;2026-09-18T13:13:53Z;2026-09-18T13:19:09Z;"Add --norm-multiallelic to vcfputtogetheragain; docs and separate test
+
+--norm-multiallelic mirrors `bcftools norm -m-`: instead of the zig
+semantics (drop the ALT alleles of multi-allelic input records from
+the merged record while keeping their renumbered genotypes - the
+source of the invalid MULTI=ALTPROBLEM records), all ALT alleles are
+spliced into the merged record and genotype renumbering uses the
+cumulative allele offset of the preceding records. Merged records
+then always satisfy the VCF spec; MULTI=ALTPROBLEM remains and now
+exclusively marks true genotype conflicts (a sample called for two
+different alleles across overlapping records).
+
+Measured on samples/scaffold612.phased.vcf: the 256 previously
+invalid ALTPROBLEM records now validate cleanly (vcfvalidate reports
+0 errors).
+
+Docs: --norm-multiallelic documented in vcfputtogetheragain.md, the
+vcfcreatemulti.md ALTPROBLEM caveat now points at the alternative,
+and the tool docs are copied into doc/ by the build (added
+vcfputtogetheragain.md and the new test doc to the copy list).
+
+Tests: separate doctest file test/pytest/vcfputtogetheragain-norm.md
+(runs the tool with --norm-multiallelic on the scaffold612
+mini/region extracts and test-dup, with regression baselines)
+asserting that all generated outputs validate cleanly - including
+the records that fail validation in default mode. Default (zig
+parity) behaviour is unchanged. All 14 CTest tests pass.";https://github.com/vcflib/vcflib/commit/25298db2a4d9ac09d8d511606a0a7c3f89100f58
+vcflib_vcflib;77bcea88ad35b3d54b4695473e95d9327b94efff;glm;2026-09-18T13:06:15Z;2026-09-18T13:06:15Z;"Validate VCF outputs of all remaining regression tests
+
+Extend the output-validation sweep to the remaining tools: vcfwave
+(3 outputs), vcfallelicprimitives (4 outputs) and vcffilter (1
+regression file) are now checked with vcfvalidate in their doctests.
+vcf2tsv emits TSV rather than VCF, so its test doc documents why
+vcfvalidate does not apply there.
+
+With this every VCF-producing regression test in the suite validates
+its generated output; inputs are validated in-tool by
+vcfputtogetheragain (strict) and at test time for the other tools'
+outputs. All 13 CTest tests pass.";https://github.com/vcflib/vcflib/commit/77bcea88ad35b3d54b4695473e95d9327b94efff
+vcflib_vcflib;4a4286deaa7f600ae6505e9fcfbc0c084426c4ac;glm;2026-09-18T13:02:42Z;2026-09-18T13:02:42Z;"Validate generated test outputs; vcfvalidate rejects empty VCFs
+
+vcfvalidate: a file with zero data records (empty or header-only) is
+now an error - ""no data records found"" with exit status 1 - instead
+of silently reporting success.
+
+Test framework: every VCF output generated by the regression runs is
+now itself validated with vcfvalidate:
+
+- vcfputtogetheragain.md and vcfcreatemulti.md gained a ""Validating
+  generated output"" section; all outputs without MULTI=ALTPROBLEM
+  records must validate cleanly
+- outputs with MULTI=ALTPROBLEM records (the scaffold612 extracts)
+  are asserted to have all their validation errors on ALTPROBLEM
+  records. This documents a genuine spec deviation inherited from the
+  zig merge semantics: multi-allelic input records are skipped from
+  the merged ALT list, but their renumbered genotypes are kept, so
+  such records can reference allele indices beyond the ALT count (the
+  INFO/AC/AF cardinalities of those records are also inconsistent -
+  something vcf-std cannot check without meta-information parsing)
+
+Verified: all 13 CTest tests pass.";https://github.com/vcflib/vcflib/commit/4a4286deaa7f600ae6505e9fcfbc0c084426c4ac
+mobleylab_blues;d2ef364749d4cbd7554add3ee61a5e90588760e1;Yunhui Ge;2021-01-22T02:24:57Z;2021-01-22T02:24:57Z;"Updated conda installation instructions (#171)
+
+* modified setup.py and meta.yaml to for conda setup
+
+* updated README file
+
+* minor fix
+
+* changes on noarch
+
+* updated installation instructions for Linux users
+
+* updated readthedoc installation and README file
+
+* fixed bash code rendering
+
+* pytest instruction added
+
+* Update README.md
+
+Updated conda installation instructions
+
+* Updated conda installation instructions
+
+* Remove several unnecessary lines
+
+Those lines may break ReadtheDoc page.
+
+* Update BLUES version
+
+* Updated conda installation instructions
+
+* Updated conda installation instructions
+
+Co-authored-by: Yunhui Ge <yunhuige@Yunhuis-MacBook-Pro-2.local>";https://github.com/MobleyLab/blues/commit/d2ef364749d4cbd7554add3ee61a5e90588760e1
+mobleylab_blues;bf3e3e5f317d3ba6234818ef55d7444c1496652a;Yunhui Ge;2020-11-12T03:29:11Z;2020-11-12T03:29:11Z;"Clean up and update installation instructions  (#169)
+
+* modified setup.py and meta.yaml to for conda setup
+
+* updated README file
+
+* minor fix
+
+* changes on noarch
+
+* updated installation instructions for Linux users
+
+* updated readthedoc installation and README file
+
+* fixed bash code rendering
+
+* pytest instruction added
+
+Co-authored-by: Yunhui Ge <yunhuige@Yunhuis-MacBook-Pro-2.local>";https://github.com/MobleyLab/blues/commit/bf3e3e5f317d3ba6234818ef55d7444c1496652a
+mobleylab_blues;dc6ada4970670f48706cad00cc4a7677c42c340f;Yunhui Ge;2020-10-29T19:36:46Z;2020-10-29T19:36:46Z;"modified setup.py and meta.yaml to for conda setup (#168)
+
+Now BLUES can be installed through conda again!";https://github.com/MobleyLab/blues/commit/dc6ada4970670f48706cad00cc4a7677c42c340f
+mobleylab_blues;10830cef85f5886ac04349c6370376ebe33d4360;David L. Mobley;2020-10-16T21:44:47Z;2020-10-16T21:44:47Z;Update encrypted OE license file (#167);https://github.com/MobleyLab/blues/commit/10830cef85f5886ac04349c6370376ebe33d4360
+mobleylab_blues;a4f92584253aa1fd3149b5b6d8058c5105854449;sgill2;2020-09-12T00:06:40Z;2020-09-12T00:06:40Z;"Add water Translational Moves (#166)
+
+* added water translational moves/tests
+
+* added error printing to _stepNCMC
+
+* removed debug statements and updated doc strings
+
+* Add water translation move examples
+
+* Fix typo in the README
+
+Co-authored-by: Danielle Bergaziin <bergazin@uci.edu>";https://github.com/MobleyLab/blues/commit/a4f92584253aa1fd3149b5b6d8058c5105854449
+mobleylab_blues;364cfe1b0edd5a083b4714946a3021bb885784ea;Sukanya Sasmal;2019-11-05T23:42:50Z;2019-11-05T23:42:50Z;removing added print statements;https://github.com/MobleyLab/blues/commit/364cfe1b0edd5a083b4714946a3021bb885784ea
+mobleylab_blues;dfd456628f782f6917e07ba47d5d6639dd895735;Sukanya Sasmal;2019-11-05T23:37:48Z;2019-11-05T23:37:48Z;test;https://github.com/MobleyLab/blues/commit/dfd456628f782f6917e07ba47d5d6639dd895735
+mobleylab_blues;21bbb8449cae1edbbba0a7299ee303595e5f3de9;Nathan Lim;2019-06-18T16:43:20Z;2019-06-18T16:43:20Z;"Revert ""Merge branch 'nathanmlim-master'""
+
+This reverts commit 3e13c4433b877781e14d1db37992c63a5741d019, reversing
+changes made to 035fd08c65e4b130b28aab27bd6511398226ccfa.";https://github.com/MobleyLab/blues/commit/21bbb8449cae1edbbba0a7299ee303595e5f3de9
+mobleylab_blues;3e13c4433b877781e14d1db37992c63a5741d019;Nathan Lim;2019-06-18T16:40:53Z;2019-06-18T16:40:53Z;Merge branch 'nathanmlim-master';https://github.com/MobleyLab/blues/commit/3e13c4433b877781e14d1db37992c63a5741d019
+mobleylab_blues;b306f84405e74f3e07e278ffdc963b9188da57ce;Nathan Lim;2019-06-18T16:32:20Z;2019-06-18T16:32:20Z;Fix output for test storage;https://github.com/MobleyLab/blues/commit/b306f84405e74f3e07e278ffdc963b9188da57ce
+vinecopulib_rvinecopulib;2ac9d35c1bc25ba310f9e65f32579229b2dbcfd0;Thomas Nagler;2026-09-18T14:32:39Z;2026-09-18T14:32:39Z;Use the canonical reference URL in the vignette;https://github.com/vinecopulib/rvinecopulib/commit/2ac9d35c1bc25ba310f9e65f32579229b2dbcfd0
+vinecopulib_rvinecopulib;1fd95dfceb5eb7dcec805d4d162309019ebcb707;Thomas Nagler;2026-09-18T13:46:19Z;2026-09-18T13:46:19Z;"Release 1.0.0.1.0 (#356)
+
+* trim names for discrete copulas (fixes #315) (#316)
+
+* trim names for discrete copulas (fixes #315)
+
+* Update tests/testthat/test_discrete.R
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+* fix typo, decrease finite diff threshold (#319)
+
+* fix typo, decrease finite diff threshold
+
+* remove test file
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* New vcl (#320)
+
+* update to vcl 0.8.0
+
+* adapt R API
+
+* updated sources (per-row parameters)
+
+* adapt frontened to vectorized parameters
+
+* bump version
+
+* hide vectorization from bicop_dist
+
+* more tests
+
+* air format .
+
+* remove scores cov
+
+* remove code redunancy (pars/par)
+
+* extend API docs (scores hessian examples)
+
+* safeguard nlohmann_json for new xcode version
+
+* uopdate docs
+
+* pull new VCL, adapt for taildep/beta
+
+* adapt unit tests to reduced pdf_full output (hfunc_sub on demand)
+
+* run air
+
+* Fix crashes with vectorized bicop parameters (#322)
+
+* Fix crashes with vectorized bicop parameters
+
+`dbicop(u, ""clayton"", parameters = <n x 1 matrix>)` errored with
+""parameters exceed lower bound ... actual: 4.77025e-310"", a subnormal double
+(a read of uninitialized memory). bicop_wrap() reduced vectorized parameters
+with `par = par.topRows(1)`, an Eigen self-aliasing assignment: the resize
+frees par's buffer before the copy, so the Bicop was constructed with garbage
+and check_parameters threw at construction. Only one-parameter families with a
+positive lower bound (clayton/gumbel/joe) surfaced it; gaussian/frank swallowed
+the garbage. Fixed with `.eval()`.
+
+Also update the vendored vinecopulib sources (companion upstream PR
+vinecopulib/vinecopulib#700):
+- abstract.ipp: the discrete per-row evaluation leaves indexed the parameter
+  matrix out of bounds for parameterless (independence) and nonparametric (tll)
+  copulas; broadcast unless there is one parameter set per row and guard the
+  empty-parameter case.
+- parametric.ipp: check_parameters_size() validates rows and cols
+  unconditionally, so a transposed same-size shape can no longer reach the
+  coefficient-wise bound checks (an out-of-bounds read under NDEBUG).
+
+Add a regression test over all one-parameter families (vectorized vs
+row-by-row) plus the reported clayton case.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+
+* Update tests/testthat/test_bicop_dist.R
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+Co-authored-by: Thibault Vatter <thibault.vatter@gmail.com>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+* Pull new sources
+
+* Modernize the backend import for vinecopulib 1.0
+
+* Pull vinecopulib cond-simulate sources
+
+Vendor vinecopulib commit fff109c6b7782d4ef0e9ad3d91b816af0e8773d3.
+
+* Refresh vinecopulib cond-simulate sources
+
+* Add conditional simulation APIs
+
+* Keep conditioning test RNG-neutral
+
+* Test conditional simulation failure modes
+
+* Avoid deterministic dependence in discrete fixture
+
+* Use the backend conditional simulation overload
+
+* Expose conditioning sets in Rosenblatt transforms
+
+* Support custom vine tree criteria
+
+* Document custom criterion callback semantics
+
+* Allow multicore fitting with custom tree criteria
+
+* Support vectorized parameters in rbicop
+
+* Use backend simulation for vectorized bicop parameters
+
+* Expose bivariate and vectorized derivatives
+
+* Preserve derivative API compatibility
+
+* Support observation-specific parameters in dvinecop
+
+* Prepare 1.0.0.1.0 package metadata (#331)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Expose density and h-function derivatives (#332)
+
+* Expose bicop function derivatives
+
+* Format derivative interface
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Document vine margin type controls (#333)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Marginal modeling protocols (#338)
+
+* Add a generic margin protocol
+
+* Add explicit margin variable types
+
+* Select parametric margin families
+
+* Harden the margin frontend
+
+* Document marginal modeling workflows
+
+* Support weights in custom margin fits
+
+* Keep built vignettes in source packages
+
+* Overhaul marginal distribution protocols
+
+* Refine margin family naming and validation probes
+
+* Support legacy margin controls with deprecation
+
+* Parallelize marginal fitting
+
+* Consolidate margin metadata protocol
+
+* Simplify margin protocol implementation
+
+* Apply current Air formatting
+
+* Address margin protocol review findings
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Overhaul package documentation (#339)
+
+* Rebuild the documentation foundation
+
+* Add core modeling guides
+
+* Document advanced modeling workflows
+
+* Align documentation with margin protocols
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Harden rvinecopulib for the 1.0.0 release (#347)
+
+* Fix zero-truncation and univariate vine invariants
+
+* Harden native count argument validation
+
+* Validate mBICV prior probability
+
+* Preserve the vendored vinecopulib license
+
+* Fix the mBICV sparsity prior
+
+* Keep partial copula controls from retaining data
+
+* Preserve missing rows when expanding factors
+
+* Raise optional margin dependency floor
+
+* Return standard logLik objects
+
+* Don't let ifelse() truncate margins_controls$cores
+
+`marg_cores <- ifelse(is.null(marg_cores), cores, marg_cores)` is vectorised
+over its condition, so it returns a length-one result regardless of the branch
+taken: a `cores` of c(2, 3) became 2 before as_count() ever saw it, and the
+length check silently passed.
+
+Surfaced while resolving the conflict in this branch. The base branch validated
+`length(marg_cores) != 1L` inline and so rejected it; as_count() checks the same
+thing but never received the vector. Replacing ifelse() with a plain `if`
+restores the rejection, and the test in test_vine.R now exercises all six
+invalid inputs the base branch covered rather than only `cores = 0`.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+Co-authored-by: Thibault Vatter <thibault.vatter@gmail.com>
+Co-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Parameter uncertainty, a margin_info() guard, and the upstream Joe tau fix (#349)
+
+* Guard margin_info() against an unloaded univariateML
+
+margin_info.univariateML() was the only one of the four univariateML methods
+without a check_univariateML() call, and it reaches for stats::logLik(), whose
+method lives in that package's namespace. Reading a saved model back in a fresh
+session therefore failed, which breaks the serialization round trip the
+marginal-models vignette documents.
+
+  m <- readRDS(""model.rds"")
+  margin_info(m)
+  #> Error: no applicable method for 'logLik' applied to an object of
+  #>   class ""univariateML""
+
+The regression test reads a saved margin in a subprocess so that the failure
+mode is actually exercised.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Take the upstream fix for Joe's tau at its removable singularity
+
+tau(theta) = 1 + 2 [psi(2) - psi(2/theta + 1)] / (2 - theta) is 0/0 at
+theta = 2: the bracket and the denominator vanish together. The quotient was
+evaluated directly, so par_to_ktau(bicop_dist(""joe"", 0, 2)) returned NaN and
+the surrounding neighbourhood lost most of its significant digits to
+cancellation. theta = 2 is an ordinary interior point that a user can specify
+directly or reach from a fit.
+
+Fixed upstream in vinecopulib/vinecopulib#758, which is merged; this vendors
+that change verbatim so the header tree stays a faithful mirror. The limit is
+1 - psi'(2) = 2 - pi^2/6, covered near the singularity by a series expansion
+that agrees with the closed form to about 1e-10.
+
+The R-level test pins the limit and compares the expansion against the closed
+form at 1e-8, a threshold that sits between the correct expansion and a sign
+error in the psi''(2) term.
+
+Note that editing a vendored header does not trigger recompilation: src/*.o
+must be removed by hand.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Add vcov() and confint() for copula parameters
+
+Assembles a covariance matrix from the observation-wise scores and the
+derivatives of the estimating equations, with methods for bicop_dist,
+vinecop_dist and vine_dist, and derives Wald intervals from it. Rows and
+columns are named by tree, conditioned pair and conditioning set, so a
+coefficient can be located in the model without counting.
+
+The orientation of the bread matters and is easy to get wrong. hessian()
+returns d sbar / d theta. Under step_wise = TRUE -- the default -- that is the
+Jacobian of the step-wise estimating equations, not a Hessian: it is exactly
+block upper-triangular, because the pseudo-observations entering each pair
+copula depend on the parameters of earlier trees. So the M-estimation bread is
+A = -t(H), the sandwich is A^-1 B A^-T / n, and the matrix must not be
+symmetrized first -- doing so discards the cross-tree propagation terms.
+
+Monte Carlo against the true sampling distribution (1200 replications,
+four-dimensional Gaussian D-vine, n = 400) puts the standard errors within
+2.4% throughout, and coverage of nominal 95% intervals at 0.941-0.955.
+Symmetrizing the bread instead inflates the tree-one standard errors by up to
+7% and pushes their coverage to 0.964.
+
+type = ""model"" returns A^-1/n, which relies on the information equality and so
+holds only for a maximum-likelihood estimator; it is refused for
+step_wise = TRUE. Nonparametric pair copulas are refused outright, since no
+derivatives are implemented for them. Discrete variables are allowed: the
+backend falls back to central finite differences, which agree with a numerical
+gradient of the vine log-likelihood to a relative 4e-5.
+
+Neither variant accounts for estimation of the margins, which makes the
+intervals somewhat too short; this is documented.
+
+Documented as `parameter_uncertainty` alongside the other grouped topics, with
+the method aliases, and added to the pkgdown reference index next to mBICV.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Format with air
+
+Runs `air format .` as AGENTS.md requires. tests/testthat/test_rosenblatt.R
+was already unformatted on the base branch; the one-line change there is
+pre-existing drift rather than part of this work.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Drop type = ""model"" and the vine_dist methods
+
+Two simplifications from review.
+
+The model-based form A^-1/n needs the information equality A = B, which holds
+only at a maximum-likelihood estimator -- so not for the default step-wise
+objective, where A is a Jacobian rather than a Hessian. The sandwich is correct
+either way, so offering only the sandwich removes an argument, a branch and an
+error path without losing anything valid. R/vcov.R loses about half its body.
+
+The methods for vine distributions are removed. They treated the copula data as
+observed, which quantifies uncertainty in the pair-copula parameters *given* the
+margins; a vine() fit estimates its margins too, and the second stage inherits
+the first stage's variability. The experiment reported in the manuscript puts
+the cost at about three percentage points of coverage. Correcting for it needs
+the influence function of the marginal estimator, and fit_margin() is a
+user-supplied black box, so there is nothing to differentiate. Better to provide
+no method than a silently anticonservative one; the documentation gives the
+bootstrap recipe instead.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Trim the vcov() documentation
+
+Drop the paragraph justifying why only the sandwich is offered, and the
+restatement of the same point further down. The reader needs to know what
+vcov() returns, not why the alternative was rejected.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>
+
+* Final backend sync (#351)
+
+* update backend
+
+* Sync truncated conditioning support
+
+* Add regressions for backend fixes
+
+* Document backend behavior fixes
+
+* Record vendored backend revision
+
+* Drop obsolete margin warning expectations
+
+* Modernize Rosenblatt documentation
+
+* Fix parameter uncertainty aliases
+
+* update website
+
+* Update CRAN check metadata
+
+* Revert ""Update CRAN check metadata""
+
+This reverts commit 1f540c2ce93c5952a6d1284b2979aa439444be38.
+
+* Sync Chatterjee tree selection with wdm 0.3.0
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Deploy the pkgdown site from GitHub Actions (#352)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Reject invalid candidates during margin selection (#353)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Summarize user-facing 1.0.0 changes (#354)
+
+* Sync backend safety checks
+
+* Improve release coverage (#357)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Sync backend and fix spelling (#358)
+
+* Sync vendored backend with vinecopulib#762
+
+* Fix spelling in frontend comments
+
+* Move backend pin to vinecopulib#765
+
+* Move backend pin to vinecopulib main
+
+* Expose the vine log-density and fix mBICV underflow
+
+* Accumulate the vine density in log space
+
+* final pull
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Thibault Vatter <thibault.vatter@gmail.com>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>";https://github.com/vinecopulib/rvinecopulib/commit/1fd95dfceb5eb7dcec805d4d162309019ebcb707
+vinecopulib_rvinecopulib;ba50731322b859ae1e3b3cbbc4a447335b13e290;Thibault Vatter;2025-06-13T13:04:03Z;2025-06-13T13:04:03Z;"Release 0.7.3.1.0 (#312)
+
+* Random spanning tree (#307)
+
+* random spanning tree
+
+* add unit test
+
+* mst_algorithm to tree_algorithm
+
+* formatting
+
+* remove file
+
+* more entropy and randomize wilson's root
+
+* don't forget vine.R
+
+* document
+
+* pull latest vinecopulib
+
+* remove pragma suppressing diagnostics
+
+* automatize tools_integration directives removal
+
+* automatize tools_integration directives removal+1
+
+* Use air as formatter (#310)
+
+* Switch to air
+
+* Run air format .
+
+* Add GitHub action
+
+* Prepare release v0.7.3 (#311)
+
+* Switch to air
+
+* Run air format .
+
+* Add GitHub action
+
+* Pull vinecopulib v0.7.3
+
+* Update news and description
+
+* Remove old version header
+
+* update website";https://github.com/vinecopulib/rvinecopulib/commit/ba50731322b859ae1e3b3cbbc4a447335b13e290
+vinecopulib_rvinecopulib;e2e50d70be523f3920825c8f07b4cb7e89ff537d;Thomas Nagler;2025-03-24T16:29:58Z;2025-03-24T16:29:58Z;"Release 0.7.2.1.0 (#306)
+
+* fix speed issues with TLL related to FFT (#305)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* bump version + update NEWS
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/e2e50d70be523f3920825c8f07b4cb7e89ff537d
+vinecopulib_rvinecopulib;167db2e75839673c639d424dffe4e175c5c4ec3f;Thomas Nagler;2025-03-05T08:57:09Z;2025-03-05T08:57:09Z;"fix deprecation warning in json header (#303)
+
+* fix deprecation warning in json header
+
+* bump version + NEWS
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/167db2e75839673c639d424dffe4e175c5c4ec3f
+vinecopulib_rvinecopulib;9e3c7c9b945a3607ac5042df4962e4c4983316fd;Thomas Nagler;2025-02-10T12:42:14Z;2025-02-10T12:42:14Z;"Release 0.7.1.1.1 (#302)
+
+* fix handling of discrete variables in vine() (#301)
+
+* fix handling of discrete variables in vine()
+
+* gh actions on all branches/PRs
+
+* more unit tests
+
+* replicate margins in vine_dist() already
+
+* fix example
+
+* add type to vine() docs
+
+* remove unnecessary if statement
+
+* use double.xmin instead of -1e-15 for left-hand CDF limit
+
+* fix nan propagation
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* update docs
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/9e3c7c9b945a3607ac5042df4962e4c4983316fd
+vinecopulib_rvinecopulib;de6dd9e1aca4ca4b4bc3da0c5aaa3974629ca7fc;Thomas Nagler;2025-01-21T09:53:58Z;2025-01-21T09:53:58Z;"Release 0.7.1.1.0 (#293)
+
+* improve rosenblatt docs
+
+* safeguard rosenblatt
+
+* fix @docType tag in pkg docs
+
+* preprocessor define to fix BH issue (#270)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* allow bicop_dist() with tll (#268)
+
+* improve docs for family = bicop_dist arguments
+
+* allow bicop_dist() with tll
+
+* export as.bicop()
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* fix na handling in vine() control checks (#266)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Add website to DESCRIPTION (#271)
+
+* Add website to DESCRIPTION
+
+* `usethis::use_github_action(""check-standard"")`
+
+* Create test-coverage.yaml
+
+* Update R-CMD-check.yaml
+
+* Update test-coverage.yaml
+
+* fix handling of logistic distribution (#275)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Add class of extreme value copulas and the tawn copula (#277)
+
+* Added class of extreme value copulas and the tawn copula
+
+* Changes to mainly parameters_to_tau
+
+* add variable names to vinecop summary (#276)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* fix typo in docs (#281)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Prep new version (#280)
+
+* adapt to new cpp backend
+
+* adapt discrete rosenblatt
+
+* bump version
+
+* pull vcl sources
+
+* update website
+
+* requirer higher kde1d version
+
+* pull vcl
+
+* final pull
+
+* require new wdm
+
+* update NEWS
+
+* make CRAN happy
+
+* more happiness
+
+* final doc fix
+
+* update API website
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* run reverse dependency checks on PRs to main (#288)
+
+* run reverse dependency check on PRs to main
+
+* trigger
+
+* fix typo
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* fix typo in docs (fixes #273) (#289)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* add 'main' argument to pairs_copula_data() (fixes #278) (#290)
+
+* add 'main' argument to pairs_copula_data() (fixes #278)
+
+* document argument
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* enable fitting only parameters in vinecop() (#291)
+
+* enable fitting only parameters in vinecop()
+
+* warn about unused structure/family_set arguments
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Pull latest vinecopulib (#292)
+
+* update vinecoplib
+
+* remove boost flags
+
+* bump version
+
+* pull vcl again
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Better revdep check (#295)
+
+* use base R revdep check via tools::
+
+* another try
+
+* separate check from results, disable mac
+
+* try no-manual
+
+* Don't check as CRAN
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* add allow_rotations argument (#296)
+
+* pull cpp sources
+
+* update R interface
+
+* fix stuff
+
+* shorten example runtime
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* updating website
+
+* Improve coverage (#297)
+
+* test variable name legend in summary(fit)
+
+* remove now unused check_margin_controls() function
+
+* test as.bicop
+
+* test and improve bicop_dist(""tll"", ...)
+
+* exclude vinecopulib sources from coverage computation
+
+* remove unused interfacing functions
+
+* test rvine_structure_sim()
+
+* test structure validation
+
+* update RcppExports
+
+* not uploading?
+
+* fix status badges
+
+* htttps
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Fix coverage upload (#298)
+
+* fix codecov upload
+
+* clean up on-push
+
+* fix exclusions
+
+* clean on-push  branches
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* Improve coverage further (#299)
+
+* fix + improve unit tests for vine_dist()
+
+* fix uncovered issues in vine_dist() logic
+
+* test factor handling in vine()
+
+* remove unused collate_u() function
+
+* improve as_rvine_X coverage
+
+* doc typo
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* don't use designated initializers (C++20 feature) (#300)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+Co-authored-by: olivroy <52606734+olivroy@users.noreply.github.com>
+Co-authored-by: FLBuchner <123307001+FLBuchner@users.noreply.github.com>";https://github.com/vinecopulib/rvinecopulib/commit/de6dd9e1aca4ca4b4bc3da0c5aaa3974629ca7fc
+vinecopulib_rvinecopulib;d8a1e0fb5aba0889324b91df1323cc9cfda70d7f;Thomas Nagler;2023-02-26T10:54:08Z;2023-02-26T10:54:08Z;"CRAN fix: add D_HAS_AUTO_PTR_ETC=0 for clang16 (#265)
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/d8a1e0fb5aba0889324b91df1323cc9cfda70d7f
+vinecopulib_rvinecopulib;e4869f08073143b9985a9452c6902169c101089a;Thomas Nagler;2023-02-20T15:39:18Z;2023-02-20T15:39:18Z;"Release 0.6.3.1.0 (#264)
+
+* NA handling in pseudo_obs() (#260)
+
+* NA handling in pseudo_obs()
+
+* fix gh actions
+
+* Rcpp update on macOS
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* add emp_cdf() (#262)
+
+* add emp_cdf()
+
+* update NEWS
+
+* export function
+
+* fix import
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+* prepare release (#263)
+
+* add emp_cdf()
+
+* update NEWS
+
+* export function
+
+* fix import
+
+* remove cpp11 reqs
+
+* update to actions/cache@v3
+
+* actions/checkout@v3
+
+* pull latests sources
+
+* bump version + update docs
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/e4869f08073143b9985a9452c6902169c101089a
+vinecopulib_rvinecopulib;8dd88461f9eb8191503dcd2d8b78a4126a89fa71;Thomas Nagler;2023-01-19T16:36:48Z;2023-01-19T16:36:48Z;"Release 0.6.2.1.3 (#258)
+
+* fix marginal PIT for discrete variables (fixes #257)
+
+* prep release
+
+* fix URL in README
+
+* fix sprintf() call for CRAN checks
+
+* unname macro arguments / Werror=unused-parameters
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";https://github.com/vinecopulib/rvinecopulib/commit/8dd88461f9eb8191503dcd2d8b78a4126a89fa71
+catboost_catboost;6c46a86a17b532e8eb77a9516286f62d5fdcbe2b;trofimenkov;2026-10-07T18:55:03Z;2026-10-07T19:18:23Z;"WINE_PREFIX_TEMPLATE: ready wine prefix resource and its recipe in contrib/tools/wine
+
+Рецепт ресурса wine кладёт в тот же архив готовый wine-префикс: каталог prefix-template/ рядом с bin,
+include, lib, share. test_tool клонирует его вместо wineboot в каждом тестовом чанке (PR 16129332).
+Без клонера поведение не меняется.
+
+Шаблон лежит внутри ресурса wine, а не отдельным ресурсом, как в первой версии PR: он годен только
+с той сборкой wine, которой сделан (.update-timestamp == mtime share/wine/wine.inf), и один id в
+wine.json не даёт паре разойтись. Цена: правка одного шаблона тоже означает новый ресурс wine.
+
+Что в PR:
+- build_template.sh: сборка шаблона последним шагом образа; архив пакуется одним tar с pipefail.
+- build.sh [podman|docker]: образ, архив, проверка архива (штамп шаблона == mtime wine.inf, файлы из
+  links.tsv на месте), сверка с текущим ресурсом.
+- compare_resource.py сравнивает prefix-template/ только по именам.
+- README и строка в build/platform/wine/readme.md. wine.json и ya.make не меняются.
+commit_hash:823445f0ab55a3c28faf887fb9c511ff4e7f37f9";https://github.com/catboost/catboost/commit/6c46a86a17b532e8eb77a9516286f62d5fdcbe2b
+catboost_catboost;858168f49d0953210f608791a777bc361bb82f16;vadim-xd;2026-10-07T17:01:52Z;2026-10-07T17:22:58Z;"Move CRangeOf to util
+commit_hash:a9f80339052316887601e9031d50d5ece9e007e6";https://github.com/catboost/catboost/commit/858168f49d0953210f608791a777bc361bb82f16
+catboost_catboost;1ac99c589b54e91a349dd04a049f8ec1e1572326;babenko;2026-10-07T06:54:05Z;2026-10-07T07:13:16Z;"Move TImmortal to library/cpp/yt/misc and adopt it more widely
+
+Move TImmortal from memory to misc so that library/cpp/yt/system, which memory depends on, can use it.
+
+Switch to TImmortal:
+* undumpable: UndumpableMemoryManager was constinit but still destroyed at exit; unmarking from a later static destructor touched a destroyed hash map.
+* YT_LOG_* anchors: constinit instead of TLeakyStorage, dropping the static-init guard check at every log site.
+* Global tracer storage: constinit global per the old TODO.
+* GetThreadMessageTags fallback, InternHostName host set, TAtForkManager (hand-rolled buffer).
+commit_hash:42cf2ecafb1fb68c6b34b13da8b37bc731aed578";https://github.com/catboost/catboost/commit/1ac99c589b54e91a349dd04a049f8ec1e1572326
+catboost_catboost;968ecf32c56252d2779fabfec4185ea512a8f12c;stohirov;2026-10-07T00:41:34Z;2026-10-07T01:02:43Z;"Document fit() callbacks parameter (#2393)
+
+Closes #2393
+
+---
+
+Pull Request resolved: https://github.com/catboost/catboost/pull/3200
+
+Co-authored-by: stohirov <95065111+stohirov@users.noreply.github.com>
+commit_hash:5b20ba337f846ff42d2b865a824c15f3883e3b5d";https://github.com/catboost/catboost/commit/968ecf32c56252d2779fabfec4185ea512a8f12c
+catboost_catboost;f1474790beb1f5f5c9119378fdf2e17e1b53ad11;dependabot[bot] [49699333+dependabot;2026-10-06T22:53:54Z;2026-10-06T23:13:03Z;"Bump pymongo from 4.6.3 to 4.18.2 in /catboost/benchmarks/quality_benchmarks/install
+
+Bumps [pymongo](https://github.com/mongodb/mongo-python-driver) from 4.6.3 to 4.18.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/mongodb/mongo-python-driver/releases"">pymongo's releases</a>.</em></p>
+<blockquote>
+<h2>PyMongo 4.18.2</h2>
+<p>Community notes: <a href=""https://www.mongodb.com/community/forums/t/pymongo-4-18-2-released/343732"">https://www.mongodb.com/community/forums/t/pymongo-4-18-2-released/343732</a></p>
+<p><a href=""https://www.cve.org/CVERecord?id=CVE-2026-96749"">CVE-2026-96749</a>
+<a href=""https://www.cve.org/CVERecord?id=CVE-2026-96748"">CVE-2026-96748</a>
+<a href=""https://www.cve.org/CVERecord?id=CVE-2026-96747"">CVE-2026-96747</a></p>
+<h2>PyMongo 4.18.1</h2>
+<p>Community notes: <a href=""https://www.mongodb.com/community/forums/t/pymongo-4-18-1-released/343338"">https://www.mongodb.com/community/forums/t/pymongo-4-18-1-released/343338</a></p>
+<h2>PyMongo 4.18.0</h2>
+<p>Community notes: <a href=""https://www.mongodb.com/community/forums/t/pymongo-4-18-released/343137"">https://www.mongodb.com/community/forums/t/pymongo-4-18-released/343137</a></p>
+<h2>PyMongo 4.17.0</h2>
+<p><a href=""https://www.mongodb.com/community/forums/t/pymongo-4-17-released/338426"">Community notes</a></p>
+<h2>What's Changed</h2>
+<ul>
+<li>refactor(ci): replace shell=True and awk pipes with native Python by <a href=""https://github.com/RinZ27""><code>@​RinZ27</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2671"">mongodb/mongo-python-driver#2671</a></li>
+<li> - Migrate 8.0+ tests to Windows 2022 by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2681"">mongodb/mongo-python-driver#2681</a></li>
+<li>[Spec Resync] 01-19-2026 by <a href=""https://github.com/mongodb-drivers-pr-bot""><code>@​mongodb-drivers-pr-bot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2680"">mongodb/mongo-python-driver#2680</a></li>
+<li>Bump pyright from 1.1.407 to 1.1.408 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2675"">mongodb/mongo-python-driver#2675</a></li>
+<li> - [Infrastructure] Improve dependabot version updates by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2682"">mongodb/mongo-python-driver#2682</a></li>
+<li> - Drop usage of Ubuntu 20 by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2683"">mongodb/mongo-python-driver#2683</a></li>
+<li> &amp; [Spec Resync] 01-26-2026 by <a href=""https://github.com/mongodb-drivers-pr-bot""><code>@​mongodb-drivers-pr-bot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2685"">mongodb/mongo-python-driver#2685</a></li>
+<li> Use Ubuntu24 for AWS Auth tests by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2686"">mongodb/mongo-python-driver#2686</a></li>
+<li> Skip free-threading for enterprise auth builds by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2687"">mongodb/mongo-python-driver#2687</a></li>
+<li>Bump astral-sh/setup-uv from 7.1.6 to 7.2.0 in the actions group across 1 directory by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2684"">mongodb/mongo-python-driver#2684</a></li>
+<li>Bump peter-evans/create-pull-request from 8.0.0 to 8.1.0 in the actions group by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2692"">mongodb/mongo-python-driver#2692</a></li>
+<li> - Refactor Cursor and CommandCursor by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2691"">mongodb/mongo-python-driver#2691</a></li>
+<li>[Spec Resync] 02-02-2026 by <a href=""https://github.com/mongodb-drivers-pr-bot""><code>@​mongodb-drivers-pr-bot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2694"">mongodb/mongo-python-driver#2694</a></li>
+<li> Add codecov integration by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2690"">mongodb/mongo-python-driver#2690</a></li>
+<li>Bump astral-sh/setup-uv from 7.2.0 to 7.2.1 in the actions group by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2700"">mongodb/mongo-python-driver#2700</a></li>
+<li>PYTHON-XXXX Fixed typo in Running Tests Locally section. by <a href=""https://github.com/caseyclements""><code>@​caseyclements</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2698"">mongodb/mongo-python-driver#2698</a></li>
+<li> Fix codecov upload by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2701"">mongodb/mongo-python-driver#2701</a></li>
+<li> Fix codecov upload on Evergreen by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2702"">mongodb/mongo-python-driver#2702</a></li>
+<li> Add appName to OIDC test failpoints by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2697"">mongodb/mongo-python-driver#2697</a></li>
+<li> Improve fallback for PyOpenSSL windows system certs loading by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2688"">mongodb/mongo-python-driver#2688</a></li>
+<li> Add coverage to all variants by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2705"">mongodb/mongo-python-driver#2705</a></li>
+<li> Pin setuptools when using older gevent by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2708"">mongodb/mongo-python-driver#2708</a></li>
+<li>Bump the actions group with 2 updates by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2711"">mongodb/mongo-python-driver#2711</a></li>
+<li> Temporarily skip some BSON encryption tests by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2709"">mongodb/mongo-python-driver#2709</a></li>
+<li> Use mongodb-runner in Evergreen Tests by <a href=""https://github.com/blink1073""><code>@​blink1073</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2703"">mongodb/mongo-python-driver#2703</a></li>
+<li> - Server selection deprioritization only for overload errors on replica sets by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2710"">mongodb/mongo-python-driver#2710</a></li>
+<li> - BSON encoding/decoding performance improvements by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2715"">mongodb/mongo-python-driver#2715</a></li>
+<li>[Spec Resync] 03-02-2026 by <a href=""https://github.com/mongodb-drivers-pr-bot""><code>@​mongodb-drivers-pr-bot</code></a>[bot] in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2716"">mongodb/mongo-python-driver#2716</a></li>
+<li>Python 4542 - Improved sessions API by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2712"">mongodb/mongo-python-driver#2712</a></li>
+<li> - Add Copilot instructions by <a href=""https://github.com/NoahStapp""><code>@​NoahStapp</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2717"">mongodb/mongo-python-driver#2717</a></li>
+<li> Add jira link to spec resync PR by <a href=""https://github.com/sleepyStick""><code>@​sleepyStick</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2723"">mongodb/mongo-python-driver#2723</a></li>
+<li> Test suite reduce killAllSessions calls by <a href=""https://github.com/ShaneHarvey""><code>@​ShaneHarvey</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2721"">mongodb/mongo-python-driver#2721</a></li>
+<li> Remove unused SpecRunner class by <a href=""https://github.com/ShaneHarvey""><code>@​ShaneHarvey</code></a> in <a href=""https://redirect.github.com/mongodb/mongo-python-driver/pull/2725"">mongodb/mongo-python-driver#2725</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/mongodb/mongo-python-driver/blob/main/doc/changelog.rst"">pymongo's changelog</a>.</em></p>
+<blockquote>
+<h2>Changes in Version 4.18.2 (2026/09/24)</h2>
+<p>Version 4.18.2 is a bug fix release.</p>
+<ul>
+<li>Hardened the bson buffer size guard against signed integer overflow. (<code>CVE-2026-96749</code>_).</li>
+<li>Fixed connection string parsing to percent-decode each host individually. (<code>CVE-2026-96748</code>_).</li>
+<li>Client-side field level encryption now rejects a KMS endpoint ending in <code>.sock</code>. (<code>CVE-2026-96747</code>_).</li>
+</ul>
+<p>.. _CVE-2026-96749: <a href=""https://www.cve.org/CVERecord?id=CVE-2026-96749"">https://www.cve.org/CVERecord?id=CVE-2026-96749</a>
+.. _CVE-2026-96748: <a href=""https://www.cve.org/CVERecord?id=CVE-2026-96748"">https://www.cve.org/CVERecord?id=CVE-2026-96748</a>
+.. _CVE-2026-96747: <a href=""https://www.cve.org/CVERecord?id=CVE-2026-96747"">https://www.cve.org/CVERecord?id=CVE-2026-96747</a></p>
+<p>Issues Resolved
+...............</p>
+<p>See the <code>PyMongo 4.18.2 release notes in JIRA</code>_ for the list of resolved issues
+in this release.</p>
+<p>.. _PyMongo 4.18.2 release notes in JIRA: <a href=""https://jira.mongodb.org/secure/ReleaseNote.jspa?projectId=10004&amp;version=52896"">https://jira.mongodb.org/secure/ReleaseNote.jspa?projectId=10004&amp;version=52896</a></p>
+<h2>Changes in Version 4.18.1 (2026/09/10)</h2>
+<p>Version 4.18.1 is a bug fix release.</p>
+<ul>
+<li>Use an exact match for the file ID in GridFS delete methods
+(<code>CVE-2026-88029</code>_).</li>
+</ul>
+<p>.. _CVE-2026-88029: <a href=""https://www.cve.org/CVERecord?id=CVE-2026-88029"">https://www.cve.org/CVERecord?id=CVE-2026-88029</a></p>
+<h2>Changes in Version 4.18.0 (2026/09/03)</h2>
+<p>PyMongo 4.18 brings a number of changes including:</p>
+<ul>
+<li>Added <code>srvAllowedHostsSuffix</code> as a URI option and keyword argument to
+:class:<code>~pymongo.synchronous.mongo_client.MongoClient</code> and
+:class:<code>~pymongo.asynchronous.mongo_client.AsyncMongoClient</code>. When connecting
+via <code>mongodb+srv://</code>, this option overrides the default requirement that
+SRV-returned hosts share the same parent domain as the seed hostname,
+allowing hosts under a different domain suffix to be accepted. The suffix must
+not be a public suffix (per the <code>Public Suffix List &lt;https://publicsuffix.org/list/&gt;</code>_). See the
+:class:<code>~pymongo.synchronous.mongo_client.MongoClient</code> and
+:class:<code>~pymongo.asynchronous.mongo_client.AsyncMongoClient</code> documentation for
+security considerations.</li>
+<li>Dropped support for MongoDB 4.2.</li>
+<li>Added support for MongoDB 9.0.</li>
+<li>PyPy support is deprecated and will be removed in a future release.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/640dd2383a1a2fb1a10e5222d50ebc0b22a61bd7""><code>640dd23</code></a> Prep 4.18.2 release (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3066"">#3066</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/6a0ec650ee7942e24e9aa0848937d66e792f1834""><code>6a0ec65</code></a> Update changelog for CVE-2026-88029 reference (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3049"">#3049</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/44be553d2a55394596d2d47a6bafca9f7ced9809""><code>44be553</code></a> BUMP 4.18.2.dev0</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/127d140440715f2897ccf74d35fec47a32e34af8""><code>127d140</code></a> Prep for 4.18.1 release (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3047"">#3047</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/fa676586ba4b399168a4d1d41c30dc2166cc44fd""><code>fa67658</code></a> Use exact match for file ID in GridFS delete methods (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3046"">#3046</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/1011e57e7f95b14d3c398f3225dcc130b8469a12""><code>1011e57</code></a> Prep branch v4.18</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/4dd73032d98146fd97bedfb8434bff2f458bc26f""><code>4dd7303</code></a> Request workflows permission in create-release-branch (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3039"">#3039</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/e66da83c219e82497da46c968a542ed7e792e240""><code>e66da83</code></a> Use shared python/setup action for CI setup (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/2990"">#2990</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/22a2ec8af10a4ef697518392f55fbb3baddd335b""><code>22a2ec8</code></a> Move _write_concern_for_cmd into BaseObject (<a href=""https://redirect.github.com/mongodb/mongo-python-driver/issues/3036"">#3036</a>)</li>
+<li><a href=""https://github.com/mongodb/mongo-python-driver/commit/2a4a0047c8a769c36ea3463489234485b34dd08b""><code>2a4a004</code></a> Fix test_fork.py failures on Python 3.15 due to fork() Deprecatio...</li>
+<li>Additional commits viewable in <a href=""https://github.com/mongodb/mongo-python-driver/compare/4.6.3...4.18.2"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pymongo&package-manager=pip&previous-version=4.6.3&new-version=4.18.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/catboost/catboost/network/alerts).
+
+</details>
+
+---
+
+Pull Request resolved: https://github.com/catboost/catboost/pull/3210
+commit_hash:00aaa6c1ff439d88a145697c2797566db1e7bd2e";https://github.com/catboost/catboost/commit/f1474790beb1f5f5c9119378fdf2e17e1b53ad11
+catboost_catboost;366fdd1977c9aa6374661a8c79d19a6d1753e338;dependabot[bot] [49699333+dependabot;2026-10-06T22:48:21Z;2026-10-06T23:11:32Z;"Bump brace-expansion from 1.1.16 to 1.1.21 in /catboost/python-package/catboost/widget/js
+
+Bumps [brace-expansion](https://github.com/juliangruber/brace-expansion) from 1.1.16 to 1.1.21.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/8e81e187b6e9c6c723d16c042657c00acefc2483""><code>8e81e18</code></a> 1.1.21</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/ffdfa3e3806bed17c0874b8f1439b084de354a7e""><code>ffdfa3e</code></a> Merge commit from fork</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/c6513ad31e08edb56dc414a629e39cba724b7548""><code>c6513ad</code></a> 1.1.20</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/1efee7c397c191da6287a78ec19512476a966a7b""><code>1efee7c</code></a> Merge commit from fork</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/a34340a053abb475cc226aeb3f71887018e71bd0""><code>a34340a</code></a> 1.1.19</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/0bcbfc0a5928c3073d48f42999d1ce4fc1c42fbc""><code>0bcbfc0</code></a> Merge commit from fork</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/758fcd6d188a95c2342818519c77b8c06794552b""><code>758fcd6</code></a> 1.1.18</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/27fbeed22b4fdf2c5f732f66bcf84d43f4a26c6e""><code>27fbeed</code></a> Merge commit from fork</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/5c57cc2519dfb067e188b7cb0733fffbd02946bf""><code>5c57cc2</code></a> 1.1.17</li>
+<li><a href=""https://github.com/juliangruber/brace-expansion/commit/d757f1dde7808bcbcd7a4628ab913e5185ed3d57""><code>d757f1d</code></a> npm ignore <code>.claude</code></li>
+<li>Additional commits viewable in <a href=""https://github.com/juliangruber/brace-expansion/compare/v1.1.16...v1.1.21"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=brace-expansion&package-manager=npm_and_yarn&previous-version=1.1.16&new-version=1.1.21)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/catboost/catboost/network/alerts).
+
+</details>
+
+---
+
+Pull Request resolved: https://github.com/catboost/catboost/pull/3208
+commit_hash:3b426f110327d95068520f5b145a22799650ce47";https://github.com/catboost/catboost/commit/366fdd1977c9aa6374661a8c79d19a6d1753e338
+catboost_catboost;b5bf73a108eb8c5cb2f23f4be2806270b29c9afd;akhropov;2026-10-06T22:20:31Z;2026-10-06T22:39:17Z;"Restict polars version in tests to < 2.0.. #3206
+commit_hash:46e94562ee6a0ed64458a34a0c0cf540b5688dc8";https://github.com/catboost/catboost/commit/b5bf73a108eb8c5cb2f23f4be2806270b29c9afd
+catboost_catboost;0d5cf44c0ef671a54c925b5efb4dbbfaed17916d;enderbeat;2026-10-06T12:26:15Z;2026-10-06T12:51:26Z;"Accept shared immutable payloads in async HTTP requests
+
+Change `TRequestData`'s `Content` field from `TString` to `TBlob`. This is done to avoid dependency on `TString`'s atomic counter in the face of the future `std::string` migration.
+
+`Content` is chosen to be migrated to `TBlob` since this one is usually the largest string in the request. In the case of multiple requests with the same body (e.g. sharding) the cost of copying is quite noticeable.
+
+Also move out the TStringStream object which stores the entire http request.
+
+Verification: 61 NNeh/async tests passed in each string mode. Shared/legacy, binary/empty POST, snapshot replacement, cancellation/error and caller-owner release are covered. Scatter async suite passed; affected Scatter/YT/YaIO consumers compiled.
+
+YT Scatter suite has 12 existing failures. With the changes stashed, the Host failure and HandleError/SendingTimeout/ReplyHeaders failure classes reproduce on baseline.
+
+NO_COW measurement: 64 copies of a 1 MiB request body allocate zero additional payload buffers instead of 64. Including final HTTP framing: 65 -\> 1 large allocations (68,158,104 -\> 1,048,728 bytes). One final contiguous wire buffer remains.
+Accept shared immutable payloads in async HTTP requests
+commit_hash:fd0623f740052373b16da78399c8d3eb2db43b9c";https://github.com/catboost/catboost/commit/0d5cf44c0ef671a54c925b5efb4dbbfaed17916d
+catboost_catboost;aac46aaddbab18a2fb973661ed8fb7d1f3f06b4f;shanalyb;2026-10-06T10:29:59Z;2026-10-06T10:59:24Z;"Don't abort when socket() fails in NAsio::TTcpAcceptor::Bind
+
+Refs #1765.
+
+If `socket()` fails in `TTcpAcceptor::TImpl::Bind`, the error is stored in `ec` but the function keeps going with fd -1. `CheckedSetSockOpt` then throws inside a `noexcept` method and the process aborts with `setsockopt() failed for reuse addr`. This happens on kernels booted with `ipv6.disable=1` and when the process runs out of file descriptors. The fix adds the missing `return`.
+
+This doesn't fully fix the issue: the tcp2 server still tries to bind both `0.0.0.0` and `::`, so on nodes without IPv6 the worker still fails to start, just with a regular `TSystemError` instead of an abort.
+
+Tested on a machine with `ipv6.disable=1`: without the fix `THttpListen::TEchoTest` aborts with the error from the issue, with the fix it fails with a regular exception. The other neh tests that don't need IPv6 pass.
+
+---
+
+Pull Request resolved: https://github.com/catboost/catboost/pull/3201
+commit_hash:ec5ce52344b745518f49c49e21a5627153b996e8";https://github.com/catboost/catboost/commit/aac46aaddbab18a2fb973661ed8fb7d1f3f06b4f
+catboost_catboost;0bb021e7a9dc64b10a8a4025aabf55fa4002edee;robot-contrib;2026-10-06T09:29:24Z;2026-10-06T09:52:09Z;"Update contrib/libs/snappy to 1.3.1
+commit_hash:c31871c8726e5bd16a71eda63799032bd55a0182";https://github.com/catboost/catboost/commit/0bb021e7a9dc64b10a8a4025aabf55fa4002edee
